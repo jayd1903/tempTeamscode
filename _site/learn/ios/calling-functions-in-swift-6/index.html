@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/ios/">
+                  <div class="lesson-sidebar-title">
+                    iOS with Swift
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                      <a href="/learn/ios/#2"><div class="lesson-sidebar-header">
+                        Object Oriented Programming using Swift
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/ios/objects-and-classes-in-swift-5/">
+  <div class="lesson-sidebar-item">
+    Objects and Classes in Swift
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/ios/calling-functions-in-swift-6/">
+  <div class="lesson-sidebar-item">
+    Calling Functions in Swift
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Calling Functions in Swift
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>This lesson is about conditional operators and some of their uses in iOS.</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<p>Last lesson, we looked at the concept of functions. Functions are useful only when you know how to use them. To use a function, you call it. Initializers are a type of function.
+Below is the <code>Car</code> class(just for reference):</p>
+<pre>   <code>class Car{</code></pre>
+
+<pre>   <code>//All of the variables below are the properties.</code></pre>
+
+<pre>       <code>var nameOfCar:String //Name of the car</code></pre>
+
+<pre>       <code>var color:String //Color of the car</code></pre>
+
+<pre>       <code>var fuelCapacity:Double // Fuel capacity</code></pre>
+
+<pre>       <code>var currentSpeed:Double</code></pre>
+
+<pre>       <code>var maxSpeed:Double // Max speed</code></pre>
+
+<pre>       <code>var allWheelDrive:Bool // Is it an all wheel drive?</code></pre>
+
+<pre>       <code>init(curSpeed:Double, speed:Double, name:String, fuelCap:Double, AWD:Bool){</code></pre>
+
+<pre>           <code>currentSpeed=curSpeed</code></pre>
+
+<pre>           <code>maxSpeed=speed</code></pre>
+
+<pre>           <code>nameOfCar=name</code></pre>
+
+<pre>           <code>fuelCapacity=fuelCap</code></pre>
+
+<pre>           <code>allWheelDrive=AWD</code></pre>
+
+<pre>       <code>}</code></pre>
+
+<pre>       <code>func drive(speed:Double, fuel:Int)-&gt;Double{</code></pre>
+
+<pre>           <code>var fuelRemaining=fuelCapacity - fuel</code></pre>
+
+<pre>           <code>currentSpeed=speed</code></pre>
+
+<pre>           <code>return fuelRemaining</code></pre>
+
+<pre>       <code>}</code></pre>
+
+<pre>   <code>}</code></pre>
+
+<h3>Initializers</h3>
+<p>Initializers are functions that return an object of a class. The function <code>init(curSpeed:Double, speed:Double, name:String, fuelCap:Double, AWD:Bool)</code> in the <code>Car</code> class. Before learning how to call an initializer, let’s learn to write one.</p>
+
+<p>First off, initializers are just functions that return objects of classes and to write one, you need only the <code>init</code> keyword. You do not need a return type, a return statement or a <code>func</code> keyword because the <code>init<code> keyword tells the compiler that you are about to write an initializer and it knows that initializers return objects of the <code>Car</code> type (in this case), and that they are functions.
+Here is the header(first line) of an initializer:</code></code></p>
+<pre>   <code>init(curSpeed:Double, speed:Double, name:String, fuelCap:Double, AWD:Bool)</code></pre>
+<p>You might have noticed that it has parameters(inputs). The main use of these parameters is to get the specific values for the <code>Car</code> object you want to create. Because only if you create an object, you can drive it and use it in many ways. Just having the blueprint for a Car is not enough if you want to drive it. Inside the scope of the initializer(Scope=the code between the curly braces of an initializer), the inputs are assigned to each property of the Class. For example, the input called <code>name</code> gets the name of the car and in the scope of the initializer, we assign it to the property of the <code>Car</code> class called <code>nameOfCar</code>. Assigning inputs to their respective property is not the only thing you can do in an initializer. You can also get many other totally unrelated inputs from the programmer who is creating the object and not even use those inputs. Or you can use those inputs to calculate some value you are going to use in the future. What I mean is assigning the value of the parameters to the value of properties is not the only thing you can do with initializers. You can use them just like you use any other method.
+Now, let’s move on to how to call an initializar. Most of the time, when you are calling an initializer, you will want to assign the object it returns, to a variable. The below code is what you write if you want to create a variable named <code>prius</code> of the <code>Car</code> type(Classes give the blueprint for objects that can be created from them and when the objects are created, they are of the class’s type) that will hold an object of the <code>Car</code> class, this is how you do it:</p>
+<pre>   <code>var prius:Car=Car(curSpeed:23.99, speed:12.334, name:"PRIUS", fuelCap:30.50, AWD:true)</code></pre>
+<p>The part of that code which says <code>Car(curSpeed:23.99, speed:12.334, name:"PRIUS", fuelCap:30.50, AWD:true)</code> is how you call the initializer. You just replace the <code>init</code> keyword in the initializer with the name of the class and fill up the values for the parameters while calling the initializer.</p>
+
+<h3>Calling Functions outside the class</h3>
+<p>Calling a function from within the class in which it is defined is different from calling it in code that is written outside the curly braces of the class. Let’s use the code we see in the <code>Car</code> class.The <code>drive</code> function, belongs to the <code>Car</code> class. Assume we are writing code outside of the <code>Car</code> class.  To call the <code>drive</code> function in this situation, we need an object. Let’s create the object.</p>
+
+<pre>   <code>var hondaAccord:Car=Car(curSpeed:23.99, speed:12.334, name:"HONDA ACCORD", fuelCap:30.50, AWD:true)</code></pre>
+
+<p>Now, let’s drive the Honda Accord we have created.</p>
+
+<pre>   <code>hondaAccord.drive(speed:90.322, fuel:0.9)</code></pre>
+
+<p><code>drive</code> is a function that “drives” a Car object. To call the function, you first type the name of the object you want to drive. In this case the name is <code>hondaAccord</code>. Then type a dot or a full-stop or whatever you call “.”. Then type the name of the function you want the object to call. In this case it is <code>drive</code>. After that, in parantheses(just like it is defined in the <code>Car</code>  class), type the names and the values of the parameters. The order matters. So, to know the right order, look at how you wrote it in the function definition of the <code>drive</code> method in the <code>Car</code> class. That’s all!</p>
+
+<p>Calling Functions inside the class
+Calling a function from within the class in which it is defined is easier than calling it from outside. To call it within the class, you don’t need an object. This is because the class is just a blueprint. And you don’t need a Car to write instruction about how a Car drives.
+Let’s see this in the form of code. Let’s say we want a function that makes the car drive like crazy. Using the <code>drive</code> function will make it easier to write how to drive crazy because driving like crazy, is a kind of driving(Driving like crazy definition=Driving with a speed of 100000 miles/s and using a fuel amount of 1500 gallons). This is what we do to define in the blueprint of a car how to drive like a crazy person(Please note that this code needs to be in the scope of the Car class):</p>
+
+<pre>       <code>func crazyDrive()-&gt;Double{</code></pre>
+
+<pre>           <code>return drive(speed:100000, fuel:1500)</code></pre>
+
+<pre>       <code>}</code></pre>
+
+<p>We call the drive method just like we called it outside the class in the previous topic but without the the name of the object and the “.”. The return statement does something very interesting here. When you do something like that in Swift, this is what happens:
+1)The <code>drive</code> function is called.
+2)The <code>Double</code> value returned by the <code>drive</code> function is passed on to the <code>crazyDrive</code> function and it returns the <code>Double</code> value.</p>
+
+<p>So, now we have most of the basics of object oriented programming. In the next lesson we will be learning about COLLECTION TYPES!!!</p>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Valliappan Valliappan</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

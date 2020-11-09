@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T14:34:32-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TeamsCode</title><subtitle>TeamsCode spreads computer science education to high school students by organizing amateur programming contests.
+</subtitle><entry><title type="html">Fall 2020 Virtual Programming Contest</title><link href="http://localhost:4000/contests/fall-2020-virtual-programming-contest/" rel="alternate" type="text/html" title="Fall 2020 Virtual Programming Contest" /><published>2020-11-03T00:00:00-08:00</published><updated>2020-11-03T00:00:00-08:00</updated><id>http://localhost:4000/contests/fall-2020-virtual-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/fall-2020-virtual-programming-contest/">&lt;h1 id=&quot;register-here&quot;&gt;Register Here!&lt;/h1&gt;
+&lt;h1 id=&quot;register-for-the-intermediate-division-here-&quot;&gt;Register for the Intermediate Division &lt;a href=&quot;https://teamscode-contest.xjoi.net/fall2020int&quot;&gt;here&lt;/a&gt;. &lt;br /&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;register-for-the-advanced-division-here&quot;&gt;Register for the Advanced Division &lt;a href=&quot;https://teamscode-contest.xjoi.net/fall2020adv&quot;&gt;here&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;h1 id=&quot;basic-information&quot;&gt;Basic Information&lt;/h1&gt;
+
+&lt;h4 id=&quot;view-detailed-logistics-about-the-contest-in-our-logistics-document&quot;&gt;View detailed logistics about the contest in our &lt;a href=&quot;https://drive.google.com/file/d/17mAUlHYoNTqsJJ36C8jDhcbrxYBUS3tk/view?usp=sharing&quot;&gt;logistics document&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 1:00PM – 5:00PM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Team Sizes:&lt;/strong&gt; 1-4 people per team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, C++, C#, and Python&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Divisions:&lt;/strong&gt; Intermediate or Advanced&lt;/p&gt;
+
+&lt;h1 id=&quot;general-guidelines&quot;&gt;General Guidelines&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Intermediate:&lt;/strong&gt;  A division for programmers who have recently started programming and/or are in one programming class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advanced:&lt;/strong&gt;  A division for programmers with more experience, typically having finished one programming class and are fairly knowledgeable about a specific language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: These are guidelines, not rules. You may choose to sign up for either division.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;rules&quot;&gt;Rules:&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Each team member must be in middle school or high school.&lt;/li&gt;
+  &lt;li&gt;Teams must not receive any help from anyone outside the team.&lt;/li&gt;
+  &lt;li&gt;Teams may use multiple computers.&lt;/li&gt;
+  &lt;li&gt;Pre-written code is allowed, as well as online reference guides.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;schedule&quot;&gt;Schedule&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1:00:&lt;/strong&gt; Keynote Speech, Introduction to rules and schedule.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1:30:&lt;/strong&gt; Contest begins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4:30:&lt;/strong&gt; Announce winners. Raffle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5:00:&lt;/strong&gt; End of the contest.&lt;/p&gt;
+
+&lt;p&gt;Exact logistics will be announced later, specifically, the medium through which we give speeches and announce winners and the exact distribution of prizes.&lt;/p&gt;
+
+&lt;h1 id=&quot;scoring&quot;&gt;Scoring&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt; There will be many programming problems, sorted by difficulty from easiest to hardest. The points awarded is based off of number of test cases correct and difficulty of the problem. The correct output of for each test case of an easy problem awards 10 points, of a medium problem awards 20 points, of a difficult problem awards 30 points. Each problem will have three test cases, and temas will be restricted to two submissions for each problem. Submissions will be made through email.&lt;/p&gt;
+
+&lt;p&gt;The three teams with the most amount of points will receive medals. If there is a tie in points, the winner is decided by the team that completed their last problem first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input and Output:&lt;/strong&gt; Read input from text file and output to console (answers checked manually by judges).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample Problem:&lt;/strong&gt; You are facing off against a golem. In order to beat it, you must cast a magic spell. You are given two numbers. Your task is to find the largest number possible either by adding or multiplying the two numbers together in order to cast the strongest spell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; The first line contains an integer L. The following L lines will each contain two numbers, N1 and N2.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; For each set of two numbers, print the largest number possible through either adding or multiplying the two numbers together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;5&lt;br /&gt;
+6 12&lt;br /&gt;
+1 54&lt;br /&gt;
+2 2&lt;br /&gt;
+9 -17&lt;br /&gt;
+-7 -7&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;72&lt;br /&gt;
+55&lt;br /&gt;
+4&lt;br /&gt;
+-8&lt;br /&gt;
+49&lt;/p&gt;</content><author><name></name></author><summary type="html">Register Here! Register for the Intermediate Division here. Register for the Advanced Division here.</summary></entry><entry><title type="html">Summer 2020 Virtual Programming Contest</title><link href="http://localhost:4000/contests/summer-2020-virtual-programming-contest/" rel="alternate" type="text/html" title="Summer 2020 Virtual Programming Contest" /><published>2020-06-02T00:00:00-07:00</published><updated>2020-06-02T00:00:00-07:00</updated><id>http://localhost:4000/contests/summer-2020-virtual-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/summer-2020-virtual-programming-contest/">&lt;div style=&quot;float: right; margin-right: -140px; margin-left: 10px; text-align: center;&quot;&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Partners&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://x-camp.academy&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_x-camp2.png&quot; alt=&quot;X-Camp Academy&quot; style=&quot;width: 250px; margin-bottom: 30px; margin-right: 20px; display block;&quot; /&gt;&lt;/a&gt;
+  &lt;br /&gt;
+  &lt;a href=&quot;https://codewithus.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewithus.png&quot; alt=&quot;CodeWithUs&quot; style=&quot;width: 250px; margin-bottom: 30px; margin-right: 20px; display block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Gold Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;http://www.digipen.edu/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_digipen.jpg&quot; alt=&quot;DigiPen&quot; style=&quot;width: 250px; margin-bottom: 30px; margin-right: 20px; display block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Additional Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://codewizardshq.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewizards.jpg&quot; alt=&quot;CodeWizards HQ&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;winners&quot;&gt;Winners&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Intermediate Division&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1st - The Ducklings [780 points]&lt;/p&gt;
+
+&lt;p&gt;2nd - X-Camp Team 4 [740 points]&lt;/p&gt;
+
+&lt;p&gt;3rd - Golden Shadow [660 points]&lt;/p&gt;
+
+&lt;p&gt;3rd - EMPBros [660 points]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advanced Division&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1st - Xcamp ++c [840 points]&lt;/p&gt;
+
+&lt;p&gt;2nd - tourists [830 points]&lt;/p&gt;
+
+&lt;p&gt;3rd - void [810 points]&lt;/p&gt;
+
+&lt;h1 id=&quot;contest-files&quot;&gt;Contest Files&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/TC_CasesSols_Combined.zip&quot;&gt;Test cases and expected outputs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;basic-information&quot;&gt;Basic Information&lt;/h1&gt;
+
+&lt;h4 id=&quot;view-detailed-logistics-about-the-contest-in-our-youtube-video&quot;&gt;View detailed logistics about the contest in &lt;a href=&quot;https://youtu.be/NlON2lil0CI&quot;&gt;our YouTube video&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 1:00PM – 5:00PM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Team Sizes:&lt;/strong&gt; 1-4 people per team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, C++, C#, and Python&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Divisions:&lt;/strong&gt; Intermediate or Advanced&lt;/p&gt;
+
+&lt;h1 id=&quot;general-guidelines&quot;&gt;General Guidelines&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Intermediate:&lt;/strong&gt;  A division for programmers who have recently started programming and/or are in one programming class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advanced:&lt;/strong&gt;  A division for programmers with more experience, typically having finished one programming class and are fairly knowledgeable about a specific language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: These are guidelines, not rules. You may choose to sign up for either division.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;rules&quot;&gt;Rules:&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Each team member must be in middle school or high school.&lt;/li&gt;
+  &lt;li&gt;Teams must not receive any help from anyone outside the team.&lt;/li&gt;
+  &lt;li&gt;Teams may use multiple computers.&lt;/li&gt;
+  &lt;li&gt;Pre-written code is allowed, as well as online reference guides.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;schedule&quot;&gt;Schedule&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1:00:&lt;/strong&gt; Keynote Speech, Introduction to rules and schedule.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1:30:&lt;/strong&gt; Contest begins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4:30:&lt;/strong&gt; Announce winners. Raffle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5:00:&lt;/strong&gt; End of the contest.&lt;/p&gt;
+
+&lt;p&gt;Exact logistics will be announced later, specifically, the medium through which we give speeches and announce winners and the exact distribution of prizes.&lt;/p&gt;
+
+&lt;h1 id=&quot;scoring&quot;&gt;Scoring&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt; There will be many programming problems, sorted by difficulty from easiest to hardest. The points awarded is based off of number of test cases correct and difficulty of the problem. The correct output of for each test case of an easy problem awards 10 points, of a medium problem awards 20 points, of a difficult problem awards 30 points. Each problem will have three test cases, and temas will be restricted to two submissions for each problem. Submissions will be made through email.&lt;/p&gt;
+
+&lt;p&gt;The three teams with the most amount of points will receive medals. If there is a tie in points, the winner is decided by the team that completed their last problem first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input and Output:&lt;/strong&gt; Read input from text file and output to console (answers checked manually by judges).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample Problem:&lt;/strong&gt; You are facing off against a golem. In order to beat it, you must cast a magic spell. You are given two numbers. Your task is to find the largest number possible either by adding or multiplying the two numbers together in order to cast the strongest spell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; The first line contains an integer L. The following L lines will each contain two numbers, N1 and N2.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; For each set of two numbers, print the largest number possible through either adding or multiplying the two numbers together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;5&lt;br /&gt;
+6 12&lt;br /&gt;
+1 54&lt;br /&gt;
+2 2&lt;br /&gt;
+9 -17&lt;br /&gt;
+-7 -7&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;72&lt;br /&gt;
+55&lt;br /&gt;
+4&lt;br /&gt;
+-8&lt;br /&gt;
+49&lt;/p&gt;
+
+&lt;h1 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h1&gt;
+
+&lt;h2 id=&quot;partner-x-camp&quot;&gt;&lt;strong&gt;Partner:&lt;/strong&gt; &lt;a href=&quot;https://x-camp.academy&quot;&gt;X-Camp&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://x-camp.academy&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_x-camp2.png&quot; alt=&quot;X-Camp Academy&quot; style=&quot;width: 250px; margin-top: 50px; margin-bottom: 50px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-x-camp-academy&quot;&gt;About &lt;u&gt;X-Camp Academy&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;X-Camp Academy is a Silicon Valley-based institute that offers competitive programming and problem-solving classes (remote and traditional) to middle and high school students.&lt;/p&gt;
+
+&lt;h2 id=&quot;partner-codewithus&quot;&gt;&lt;strong&gt;Partner:&lt;/strong&gt; &lt;a href=&quot;https://codewithus.com&quot;&gt;CodeWithUs&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codewithus.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewithus.png&quot; alt=&quot;CodeWithUs&quot; style=&quot;width: 250px; margin-top: 50px; margin-bottom: 50px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-codewithus&quot;&gt;About &lt;u&gt;CodeWithUs&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;CodeWithUs is a technology education organization that teaches students a variety of skills through coding education that include popular programming languages, robotics, VR, 3D printing, and game design. We believe in giving personalized attention to each student with project-based learning to cater to everyone’s individual learning speed and style.&lt;/p&gt;
+
+&lt;h2 id=&quot;gold-sponsor-digipen&quot;&gt;&lt;strong&gt;Gold Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://www.digipen.edu/&quot;&gt;DigiPen&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.digipen.edu/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_digipen.jpg&quot; alt=&quot;DigiPen&quot; style=&quot;width: 250px; margin-top: 50px; margin-bottom: 50px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-digipen&quot;&gt;About &lt;u&gt;DigiPen&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;Since 1988, DigiPen Institute of Technology has been preparing students to succeed as skilled engineers, artists, and designers in the growing technology industries.
+An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video game technology and development. Today, we offer a wide range of technology-focused programs, all with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and interdisciplinary team-based projects, our educational model empowers students to be active learners, bold problem-solvers, and creators.
+Our programs are intentionally designed to reflect the standards and practices of the professional industries: Small teams with different backgrounds and skills collaborate to apply their knowledge, overcome challenges, and build amazing things together. These teams form the core of our tight-knit student and alumni community.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-sponsor-codewizards-hq&quot;&gt;&lt;strong&gt;Additional Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://codewizardshq.com&quot;&gt;CodeWizards HQ&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codewizardshq.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewizards.jpg&quot; alt=&quot;CodeWizards HQ&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-codewizards-hq&quot;&gt;About &lt;u&gt;CodeWizards HQ&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;CodeWizards HQ is the leading online coding school for kids and teens ages 8-18. We deliver the most fun and effective live, online coding classes which are designed to give our students the programming knowledge, skills, and confidence to thrive in a digital world.&lt;/p&gt;</content><author><name></name></author><summary type="html">Partners Gold Sponsor Additional Sponsor</summary></entry><entry><title type="html">Spring 2020 Mihs Programming Contest</title><link href="http://localhost:4000/contests/spring-2020-mihs-programming-contest/" rel="alternate" type="text/html" title="Spring 2020 Mihs Programming Contest" /><published>2020-03-11T00:00:00-07:00</published><updated>2020-03-11T00:00:00-07:00</updated><id>http://localhost:4000/contests/spring-2020-mihs-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/spring-2020-mihs-programming-contest/">&lt;div class=&quot;alert&quot;&gt;
+    &lt;span class=&quot;closebtn&quot; onclick=&quot;this.parentElement.style.display='none';&quot;&gt;&amp;times;&lt;/span&gt;
+    We have decided to cancel this contest, due to concerns regarding the coronavirus. Thank you!
+&lt;/div&gt;
+
+&lt;h1 id=&quot;interested-in-joining-our-team&quot;&gt;&lt;em&gt;Interested in joining our team?&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contests/create&quot;&gt;&lt;button class=&quot;contests-header-section-button&quot; style=&quot;margin-top:10px&quot;&gt;JOIN OUR TEAM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">&amp;times; We have decided to cancel this contest, due to concerns regarding the coronavirus. Thank you!</summary></entry><entry><title type="html">Audian Post 2</title><link href="http://localhost:4000/blog/audian-with-one-goal/" rel="alternate" type="text/html" title="Audian Post 2" /><published>2020-02-02T00:00:00-08:00</published><updated>2020-02-02T00:00:00-08:00</updated><id>http://localhost:4000/blog/audian-post-2</id><content type="html" xml:base="http://localhost:4000/blog/audian-with-one-goal/">&lt;p&gt;Audian is a locally founded company with a vision to redefine corporate telecommunications with the latest technology. With a wide variety of features and hardware, businesses can easily customize their telecom and phone systems, or as Audian calls it, improve their “telecompetance.” With an experienced, dedicated, and passionate team, Audian is quickly growing and is looking to continue its success.&lt;/p&gt;
+
+&lt;p&gt;However, Audian’s appeal goes far past their products; they lead a philanthropic program, Audian Cares, to support our community through volunteering and financial and technical support. Through this program, they have been involved with TeamsCode for a number of years. Starting in October of 2018, Audian has supported us as a sponsor and provided us with guest judges and speakers. COO Janae Smith gave a great presentation about the emerging role of technology in our lives, which left a lasting impression on the contestants. After our Spring 2019 contest, they also extended an invite to the winners to visit with Audian CEO Brandon Bazemore and COO Janae Smith for a Q&amp;amp;A about Audian’s vision and how learning computer science skills at a young age can greatly benefit your future.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\assets\blog_images\student_visit_audian.png&quot; width=&quot;100%&quot; /&gt;
+Pictured: Winners of the MIHS Spring 2019 Contest visit Audian HQ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most recently, Audian was the Platinum Sponsor for TeamsCode’s MIHS Fall 2019 programming contest. Audian brought over judges as well as CEO Brandon Bazemore, who spoke about his experience with computer science, and the application of the field to his work at Audian.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\assets\blog_images\audian_speech.jpg&quot; width=&quot;100%&quot; /&gt;
+Pictured: Audian CEO Brandon Bazemore speaks to more than 140 student programmers&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Audian and TeamsCode share the love for supporting coders, especially locally, and providing an equal opportunity for students otherwise not able to develop computer science skills to learn and strengthen their knowledge for the greater benefit it will bring to our community, ease of life, and economy. The Audian team wants to help TeamsCode guide these students down a path of success in the computer science field and even just provide an outlet for anyone to have the ability to learn to code and express their abilities free of charge. Through this support and the services they provide to many others in both business and volunteering, Audian leads a company built off of altruism and philanthropy, and especially the recognition of the role computer science plays in the lives of today and our future. Seeing the Audian logo at our contests is a reminder of this.&lt;/p&gt;
+
+&lt;p&gt;We look forward to continuing our great partnership with Audian, a company that not only shares TeamsCode’s passion for technology but also shares our passion for making technology accessible to all.&lt;/p&gt;</content><author><name>Alex Patel and Luca Palermo</name></author><summary type="html">Audian is a locally founded company with a vision to redefine corporate telecommunications with the latest technology. With a wide variety of features and hardware, businesses can easily customize their telecom and phone systems, or as Audian calls it, improve their “telecompetance.” With an experienced, dedicated, and passionate team, Audian is quickly growing and is looking to continue its success.</summary></entry><entry><title type="html">Fall 2019 Cgs Programming Contest</title><link href="http://localhost:4000/contests/fall-2019-cgs-programming-contest/" rel="alternate" type="text/html" title="Fall 2019 Cgs Programming Contest" /><published>2019-10-20T00:00:00-07:00</published><updated>2019-10-20T00:00:00-07:00</updated><id>http://localhost:4000/contests/fall-2019-cgs-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/fall-2019-cgs-programming-contest/">&lt;div style=&quot;float: right; margin-right: -120px; margin-left: 10px; text-align: center;&quot;&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Bronze Sponsors&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;http://www.brainiumstudios.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_brainium.png&quot; alt=&quot;Brainium&quot; style=&quot;width: 200px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;&lt;a href=&quot;https://forms.gle/UNQhGbbENpYo1kn77&quot;&gt;Sign Up Here&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Registration is free.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;basic-information&quot;&gt;Basic Information&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 9:45AM – 3:00PM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Catlin Gabel School&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Team Sizes:&lt;/strong&gt; 1-3 people per team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, C++, C#, and Python&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Divisions:&lt;/strong&gt; Intermediate or Advanced&lt;/p&gt;
+
+&lt;h1 id=&quot;general-guidelines&quot;&gt;General Guidelines&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Intermediate:&lt;/strong&gt;  A division for programmers who have recently started programming and/or are in one programming class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advanced:&lt;/strong&gt;  A division for programmers with more experience, typically having finished one programming class and are fairly knowledgeable about a specific language.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: These are guidelines, not rules. You may choose to sign up for either division.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;rules&quot;&gt;Rules:&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Each team member must be in middle school or high school.&lt;/li&gt;
+  &lt;li&gt;Teams must bring a charger and one computer that has a USB port and can run code in Java, C++, C#, or Python. If you choose to use another language, you must make sure the output will be readable. You also will not be provided with guidance on how to read input from files.&lt;/li&gt;
+  &lt;li&gt;No internet access is allowed during the contest to prevent people from looking up the solutions to problems, but books, printed code, and anything else on paper are allowed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;schedule&quot;&gt;Schedule&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;9:45:&lt;/strong&gt; Arrive, check in begins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10:00:&lt;/strong&gt; Introduction to rules and schedule, get settled in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10:45:&lt;/strong&gt; Practice problem, working with reading input.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11:30:&lt;/strong&gt; Contest begins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12:00:&lt;/strong&gt; Lunch while the competition goes on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2:30:&lt;/strong&gt; Announce winners. Raffle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3:00:&lt;/strong&gt; Go home.&lt;/p&gt;
+
+&lt;h1 id=&quot;scoring&quot;&gt;Scoring&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt; There will be many programming problems, sorted by difficulty from easiest to hardest. The scoring system is based off of number of test cases correct and submission time with a time penalty for incorrect submissions. The three teams with the highest scores will receive medals. If there is a tie in points, the winner is decided by the team that completed their last problem first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input and Output:&lt;/strong&gt; Read input from text file and output to console (answers checked manually by judges).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sample Problem:&lt;/strong&gt; You are facing off against a golem. In order to beat it, you must cast a magic spell. You are given two numbers. Your task is to find the largest number possible either by adding or multiplying the two numbers together in order to cast the strongest spell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; The first line contains an integer L. The following L lines will each contain two numbers, N1 and N2.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; For each set of two numbers, print the largest number possible through either adding or multiplying the two numbers together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;5&lt;br /&gt;
+6 12&lt;br /&gt;
+1 54&lt;br /&gt;
+2 2&lt;br /&gt;
+9 -17&lt;br /&gt;
+-7 -7&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example Output:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;72&lt;br /&gt;
+55&lt;br /&gt;
+4&lt;br /&gt;
+-8&lt;br /&gt;
+49&lt;/p&gt;
+
+&lt;h1 id=&quot;documents&quot;&gt;Documents&lt;/h1&gt;
+
+&lt;p&gt;This pdf will describe how to read a txt file in Java, C#, C++, and Python, using a Mac or PC.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/reading_input_files_packet.pdf&quot;&gt;Reading Input Files&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Bronze Sponsor:&lt;/strong&gt; &lt;a href=&quot;http://www.brainiumstudios.com&quot;&gt;Brainium Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.brainiumstudios.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_brainium.png&quot; alt=&quot;Brainium Studioos&quot; style=&quot;width: 230px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Bronze Sponsors</summary></entry><entry><title type="html">Fall 2019 Silicon Valley Programming Contest</title><link href="http://localhost:4000/contests/fall-2019-silicon-valley-programming-contest/" rel="alternate" type="text/html" title="Fall 2019 Silicon Valley Programming Contest" /><published>2019-08-14T00:00:00-07:00</published><updated>2019-08-14T00:00:00-07:00</updated><id>http://localhost:4000/contests/fall-2019-silicon-valley-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/fall-2019-silicon-valley-programming-contest/">&lt;div style=&quot;float: right; margin-right: -140px; margin-left: 20px; text-align: center;&quot;&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Gold Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://codewizardshq.com/?utm_source=teamscode&amp;amp;utm_medium=banner&amp;amp;utm_campaign=sponsorship&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewizards.jpg&quot; alt=&quot;CodeWizards&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;https://makaboom.school/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_makaboom.jpg&quot; alt=&quot;Makaboom&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Silver Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://bugsee.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_bugsee.png&quot; alt=&quot;Bugsee&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.bunbao.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_bunbao.jpg&quot; alt=&quot;BunBao&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Bronze Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://breakoutmentors.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_breakout.png&quot; alt=&quot;Breakout Mentors&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;interested-in-joining-our-team&quot;&gt;&lt;em&gt;Interested in joining our team?&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contests/create&quot;&gt;&lt;button class=&quot;contests-header-section-button&quot; style=&quot;margin-top:10px&quot;&gt;JOIN OUR TEAM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;our-first-programming-contest&quot;&gt;Our first programming contest&lt;/h1&gt;
+
+&lt;p&gt;This was our first programming contest in California, and we hope to host more! There was a great turnout of 35 students, or 14 teams. The contest was held in the Union Church of Cupertino on October 26th. Congratulations to the winners of the advanced division, &lt;strong&gt;TeamsCode Staff&lt;/strong&gt; from Monta Vista High School. Below are the winners in each division:&lt;/p&gt;
+
+&lt;h1 id=&quot;winners&quot;&gt;Winners&lt;/h1&gt;
+
+&lt;h2 id=&quot;advanced-division&quot;&gt;Advanced division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;TeamsCode Staff&lt;/em&gt;  from Monta Vista High School (720 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Parth Asawa, Abhinav Kommula, and Tae Kyu Kim&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Henry&lt;/em&gt;  from LAHS (540 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Arthur Zhou, Henry Huang, and Henry Wang&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Counsel of Water Sheep&lt;/em&gt;  from Amador Valley High School (410 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Timothy Gao, Matthew Zhao, Steven Yang, and Charles Jin&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;intermediate-division&quot;&gt;Intermediate division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Farmer John &amp;amp; Bessie the Cow&lt;/em&gt;  from Monta Vista High School (440 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Howard Peng and Michael Ding&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Desmos&lt;/em&gt;  from Irvington High School (390 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Stanley Ko, Kripa Kini, and Frederick Zhang&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;1234&lt;/em&gt;  from Lynbrook High School (360 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Alec Chen and Wesley Hung&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;contest-files&quot;&gt;Contest files&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/fall_2019_mvhs/advanced_scoreboard.pdf&quot;&gt;Advanced scoreboard&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/docs/fall_2019_mvhs/intermediate_scoreboard.pdf&quot;&gt;Intermediate scoreboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/fall_2019_mvhs/problem_set.pdf&quot;&gt;Problem packet&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/docs/fall_2019_mvhs/judges_data.pdf&quot;&gt;Judges answer packet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h1&gt;
+
+&lt;h2 id=&quot;gold-sponsor-codewizards&quot;&gt;&lt;strong&gt;Gold Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://codewizardshq.com/utm_source=teamscode&amp;amp;utm_medium=banner&amp;amp;utm_campaign=sponsorship&quot;&gt;CodeWizards&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codewizardshq.com/?utm_source=teamscode&amp;amp;utm_medium=banner&amp;amp;utm_campaign=sponsorship&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_codewizards.jpg&quot; alt=&quot;CodeWizards&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-codewizards&quot;&gt;About &lt;u&gt;CodeWizards&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;With 1000’s of satisfied students, CodeWizardsHQ is the most effective way for your child to
+learn to code. They teach through online, instructor-led classes which meet at a set class time.
+Students learn popular programming languages like Python, Scratch, HTML/CSS, JavaScript,
+Java and more! Ages 8 - 18.&lt;/p&gt;
+
+&lt;h2 id=&quot;gold-sponsor-makaboom&quot;&gt;&lt;strong&gt;Gold Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://makaboom.school/&quot;&gt;Makaboom&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://makaboom.school/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_makaboom.jpg&quot; alt=&quot;Makaboom&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-makaboom&quot;&gt;About &lt;u&gt;Makaboom&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;The vision of Makaboom is to lower the entry point of coding education and help children to find out about the joy of coding as a life skill through practical and hands-on projects in robotics and programming. We offer tech lab, afterschool classes, and competition team opportunities to inspire students to learn and grow through diverse learning experiences.&lt;/p&gt;
+
+&lt;h2 id=&quot;silver-sponsor-bugsee&quot;&gt;&lt;strong&gt;Silver Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://www.bugsee.com&quot;&gt;Bugsee&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bugsee.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_bugsee.png&quot; alt=&quot;Bugsee&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-bugsee&quot;&gt;About &lt;u&gt;Bugsee&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;Bugsee is a crash and bug reporting tool for mobile apps. Every report includes video, network calls, and logs leading up to the bug/crash.&lt;/p&gt;
+
+&lt;h2 id=&quot;silver-sponsor-bunbao&quot;&gt;&lt;strong&gt;Silver Sponsor:&lt;/strong&gt; &lt;a href=&quot;http://www.bunbao.com/&quot;&gt;BunBao&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bunbao.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_bunbao.jpg&quot; alt=&quot;BunBao&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-bunbao&quot;&gt;About &lt;u&gt;BunBao&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;BunBao is a food company that makes fresh, quality, wholesome bao zi handcrafted from scratch. They offer instant delivery and catering online at www.bunbao.com.&lt;/p&gt;
+
+&lt;h2 id=&quot;bronze-sponsor-breakout-mentors&quot;&gt;&lt;strong&gt;Bronze Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://breakoutmentors.com/&quot;&gt;Breakout Mentors&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://breakoutmentors.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_breakout.png&quot; alt=&quot;Breakout Mentors&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-breakout-mentors&quot;&gt;About &lt;u&gt;Breakout Mentors&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;Breakout Mentors provides 1-on-1 personalized coding tutoring for ages 8-15 with mentors from Stanford, UC Berkeley, and more. They provide a project-based approach in Python, Java, etc with weekly sessions.&lt;/p&gt;</content><author><name></name></author><summary type="html">Gold Sponsor Silver Sponsor Bronze Sponsor</summary></entry><entry><title type="html">Fall 2019 Mihs Programming Contest</title><link href="http://localhost:4000/contests/fall-2019-mihs-programming-contest/" rel="alternate" type="text/html" title="Fall 2019 Mihs Programming Contest" /><published>2019-07-23T00:00:00-07:00</published><updated>2019-07-23T00:00:00-07:00</updated><id>http://localhost:4000/contests/fall-2019-mihs-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/fall-2019-mihs-programming-contest/">&lt;div style=&quot;float: right; margin-right: -140px; margin-left: 10px; text-align: center;&quot;&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Platinum Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;http://www.audian.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_audian.png&quot; alt=&quot;Audian&quot; style=&quot;width: 250px; margin-bottom: 30px; margin-right: 20px; display block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Gold Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;http://www.digipen.edu/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_digipen.jpg&quot; alt=&quot;DigiPen&quot; style=&quot;width: 250px; margin-bottom: 30px; margin-right: 20px; display block;&quot; /&gt;&lt;/a&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Silver Sponsor&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;https://www.creativelive.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_creativelive.jpg&quot; alt=&quot;CreativeLive&quot; style=&quot;width: 200px; margin-right: 20px; display: block;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;interested-in-joining-our-team&quot;&gt;&lt;em&gt;Interested in joining our team?&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contests/create&quot;&gt;&lt;button class=&quot;contests-header-section-button&quot; style=&quot;margin-top:10px&quot;&gt;JOIN OUR TEAM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;our-sixth-biannual-programming-contest&quot;&gt;Our sixth biannual programming contest&lt;/h1&gt;
+
+&lt;p&gt;There was a great turnout of 144 students, or 65 teams. The contest was held in the Mercer Island High School Commons on November 9th from 9:45 AM – 3:30 PM. Congratulations to the winners of the advanced division, &lt;strong&gt;Void&lt;/strong&gt; from Tesla STEM High School. Below are the winners in each division:&lt;/p&gt;
+
+&lt;h1 id=&quot;winners&quot;&gt;Winners&lt;/h1&gt;
+
+&lt;h2 id=&quot;advanced-division&quot;&gt;Advanced division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Void&lt;/em&gt;  from Tesla STEM High School (650 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Tony Li, Henry Liao, and Aayush Sheth&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;#todo&lt;/em&gt;  from Garfield High School (550 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Julian Baldwin and Charlie Hayden&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;TeamSha&lt;/em&gt;  from Skyline High School (500 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Harry Qiang&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;intermediate-division&quot;&gt;Intermediate division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;exe&lt;/em&gt;  from Eastlake High School (560 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Ryan Huang&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;RAM&lt;/em&gt;  from Tyee Middle School (445 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Rico Qi&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;CurryCoders&lt;/em&gt;  from Skyline High School (440 points)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Vibhav Peri, Arnuv Peri, Mustafa Miyaziwala&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;contest-files&quot;&gt;Contest files&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/fall_2019_mihs/advanced_scoreboard.pdf&quot;&gt;Advanced scoreboard&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/docs/fall_2019_mihs/intermediate_scoreboard.pdf&quot;&gt;Intermediate scoreboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/fall_2019_mihs/problem_set.pdf&quot;&gt;Problem packet&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/docs/fall_2019_mihs/judges_data.pdf&quot;&gt;Judges answer packet&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/assets/docs/fall_2019_mihs/inputs.zip&quot;&gt;Input text files&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pictures&quot;&gt;Pictures&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1vyLRViQ0rq5esdt82HTDFXtXCTTe-tya?usp=sharing&quot;&gt;Pictures on Google Drive&lt;/a&gt;
+&lt;a href=&quot;https://www.fuelfish.com/Other/Coding-event/n-tMkTRH/&quot;&gt;Other pictures&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;sponsors&quot;&gt;Sponsors&lt;/h1&gt;
+
+&lt;h2 id=&quot;platinum-sponsor-audian&quot;&gt;&lt;strong&gt;Platinum Sponsor:&lt;/strong&gt; &lt;a href=&quot;http://www.audian.com/&quot;&gt;Audian&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.audian.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_audian.png&quot; alt=&quot;Audian&quot; style=&quot;width: 250px; margin-top: 50px; margin-bottom: 50px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-audian&quot;&gt;About &lt;u&gt;Audian&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;Audian is a software company redefining the telecom industry. Our focus is on increasing our customers’ Telecompetance by leveraging the latest is software and technology to simplify the complexities once associated with telecom, giving back time and energy to focus on growing their business. We do this through highly scalable, self-service, cloud-based telecom solutions that enable customers to easily create and manage their business phone system.&lt;/p&gt;
+
+&lt;h2 id=&quot;gold-sponsor-digipen&quot;&gt;&lt;strong&gt;Gold Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://www.digipen.edu/&quot;&gt;DigiPen&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.digipen.edu/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_digipen.jpg&quot; alt=&quot;DigiPen&quot; style=&quot;width: 250px; margin-top: 50px; margin-bottom: 50px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-digipen&quot;&gt;About &lt;u&gt;DigiPen&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;Since 1988, DigiPen Institute of Technology has been preparing students to succeed as skilled engineers, artists, and designers in the growing technology industries. Today, we offer a wide range of technology-focused programs, all with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and interdisciplinary team-based projects, our educational model empowers students to be active learners, bold problem-solvers, and creators.&lt;/p&gt;
+
+&lt;h2 id=&quot;silver-sponsor-creativelive&quot;&gt;&lt;strong&gt;Silver Sponsor:&lt;/strong&gt; &lt;a href=&quot;https://www.creativelive.com&quot;&gt;CreativeLive&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.creativelive.com&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_creativelive.jpg&quot; alt=&quot;CreativeLive&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-creativelive&quot;&gt;About &lt;u&gt;CreativeLive&lt;/u&gt;:&lt;/h2&gt;
+
+&lt;p&gt;CreativeLive is a website offering 24/7 access to online classes covering a wide variety of topics. They offer courses relating to business, photography, art, and entrepreneurship. Their mission is to empower and support creators on an international scale.&lt;/p&gt;</content><author><name></name></author><summary type="html">Platinum Sponsor Gold Sponsor Silver Sponsor</summary></entry><entry><title type="html">Spring 2019 Bellevue Programming Contest</title><link href="http://localhost:4000/contests/spring-2019-bellevue-programming-contest/" rel="alternate" type="text/html" title="Spring 2019 Bellevue Programming Contest" /><published>2019-04-09T00:00:00-07:00</published><updated>2019-04-09T00:00:00-07:00</updated><id>http://localhost:4000/contests/spring-2019-bellevue-programming-contest</id><content type="html" xml:base="http://localhost:4000/contests/spring-2019-bellevue-programming-contest/">&lt;div style=&quot;float: right; margin-right: -140px; margin-left: 10px; text-align: center;&quot;&gt;
+  &lt;h1 style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Platinum Sponsors&lt;/b&gt;&lt;/h1&gt;
+  &lt;a href=&quot;http://www.smartcodingschool.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_smartcodingschool.png&quot; alt=&quot;Smart Coding School&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;interested-in-joining-our-team&quot;&gt;&lt;em&gt;Interested in joining our team?&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contests/create&quot;&gt;&lt;button class=&quot;contests-header-section-button&quot; style=&quot;margin-top:10px&quot;&gt;JOIN OUR TEAM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;our-first-programming-contest-at-bellevue&quot;&gt;Our first programming contest at Bellevue&lt;/h1&gt;
+
+&lt;p&gt;There was a great turnout of 77 students, or 35 teams. The contest was held at the Bellevue High School on June 8th from 9:45 AM – 3:30 PM. Congratulations to the winners, &lt;strong&gt;Eastside Prep&lt;/strong&gt; from Eastside Prepartory School. Below are the winners for each division:&lt;/p&gt;
+
+&lt;h1 id=&quot;winners&quot;&gt;Winners&lt;/h1&gt;
+
+&lt;h2 id=&quot;advanced-division&quot;&gt;Advanced division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Eastside Prep&lt;/em&gt;  from Eastside Prepatory School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Gavin Uberti and David Ma&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;QuickSort&lt;/em&gt;  from the Bear Creek School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Peter Li, Nelson Sun, and Alicia Stepin&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Void&lt;/em&gt;  from Tesla STEM High School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Tony Li, Surya Gorantla, and Devesh Sarda&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;intermediate-division&quot;&gt;Intermediate division&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;The Coders&lt;/em&gt;  from East Lake High School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Sheshank Shankar&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Naomi&lt;/em&gt;  from Newport High School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Naomi Bashkansky&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Yos&lt;/em&gt;  from Lakeside School&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Akshay Bablani, Ryan Tjoa, and Sidharth Anand&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;contest-files&quot;&gt;Contest files&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/docs/spring_2019_bhs/problem_set.pdf&quot;&gt;Problem packet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pictures&quot;&gt;Pictures&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/170IMhhWLjVNX2vsX_qRerTCA7iFF56Wd?usp=sharing&quot;&gt;Pictures on Google Drive&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;platinum-sponsor-smart-coding-school&quot;&gt;&lt;strong&gt;Platinum Sponsor:&lt;/strong&gt; &lt;a href=&quot;http://www.smartcodingschool.com/&quot;&gt;Smart Coding School&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.smartcodingschool.com/&quot;&gt;&lt;img src=&quot;/assets/images/sponsor_smartcodingschool.png&quot; alt=&quot;Smart Coding School&quot; style=&quot;width: 250px; margin-right: 20px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-smart-coding-school&quot;&gt;About &lt;u&gt;Smart Coding School&lt;/u&gt;:&lt;/h2&gt;
+&lt;p&gt;Smart Coding School is a computer science education school established in March 2016. We develop computer science and engineering curriculums and offer courses for middle school and high school students (12 ~ 18 years old), and mainly provide Java Programming, data structures and algorithms, AP Computer Science A Test Prep and USA Computing Olympiad (USACO) training courses. On the 2017 Computer Science A AP Test, 95% of our students received 5 out of 5 scores. Many of our students successfully got into the Platinum, Gold, and Silver levels in USA Computing Olympiad competition. In local coding competitions, our students took 2nd place in the advanced division and 1st place in the intermediate division.
+Smart Coding School is powered by passionate software engineers from local top hi-tech companies such as Amazon and Microsoft. We believe that early computer science education can make a big difference for students. Our passion is to inspire kids and teens to see things differently from engineering perspectives and to believe that they can make a big impact through technology. Smart Coding School is all about students and prepare students for the future with technology.&lt;/p&gt;
+
+&lt;h1 id=&quot;judges&quot;&gt;Judges&lt;/h1&gt;
+
+&lt;p&gt;We’d like to thank the following judges for being essential to the organization of this contest.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;David Broman&lt;/li&gt;
+  &lt;li&gt;Andrew Madison&lt;/li&gt;
+  &lt;li&gt;John Palevich&lt;/li&gt;
+  &lt;li&gt;Justin Yang&lt;/li&gt;
+  &lt;li&gt;Ross Heise&lt;/li&gt;
+  &lt;li&gt;Jerry Balan&lt;/li&gt;
+  &lt;li&gt;Victor Jou&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Platinum Sponsors</summary></entry><entry><title type="html">Internal Resources</title><link href="http://localhost:4000/blog/teamscode-internal-resources/" rel="alternate" type="text/html" title="Internal Resources" /><published>2019-03-29T00:00:00-07:00</published><updated>2019-03-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/internal-resources</id><content type="html" xml:base="http://localhost:4000/blog/teamscode-internal-resources/">&lt;p&gt;Since the first MIHS Programming Contest in the spring of 2017, countless student-led programming contests have been hosted, and not just by TeamsCode: both Issaquah and Interlake High School have successfully started their own events. We are ecstatic to see this and believe that more student-led contests contribute to a number of benefits, including the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;More opportunities for students to practice their coding skills&lt;/li&gt;
+  &lt;li&gt;More events at which to meet and socialize with like-minded students from other schools&lt;/li&gt;
+  &lt;li&gt;The creation of a welcoming environment that’s easy for new programmers to enter&lt;/li&gt;
+  &lt;li&gt;The opportunity for student organizers to contribute to the community while simultaneously developing practical leadership and business skills&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We know how challenging organizing a programming contest can be. Luckily, through trial and error, we have found many useful tools to help us, many of which are essential to keeping us afloat every day. In this blog post, I’ll be sharing our resources in order to help other students organize their events as well as encourage those considering the idea to go for it.&lt;/p&gt;
+
+&lt;p&gt;Below, I’ve organized our tools into seven categories. If you’re interested in a specific section, click on the header to jump straight to that part.&lt;/p&gt;
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#core&quot;&gt;&lt;b&gt;Core:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Google Drive&lt;br /&gt;
+Slack&lt;br /&gt;
+Typeform&lt;br /&gt;
+GitHub&lt;br /&gt;
+Trello&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;!-- For some reason there's no way to insert line breaks besides doing this --&gt;
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#communication&quot;&gt;&lt;b&gt;Communication:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Zoho Mail&lt;br /&gt;
+MailChimp&lt;br /&gt;
+appear.in&lt;br /&gt;
+Facebook&lt;br /&gt;
+Twitter&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#automation&quot;&gt;&lt;b&gt;Automation:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Zapier&lt;br /&gt;
+Automate.io&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#design&quot;&gt;&lt;b&gt;Design:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Piktochart&lt;br /&gt;
+Canva&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#purchases&quot;&gt;&lt;b&gt;Purchases:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Amazon&lt;br /&gt;
+Edco&lt;br /&gt;
+VistaPrint&lt;br /&gt;
+UberPrints and Zazzle&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#finances&quot;&gt;&lt;b&gt;Finances:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;PayPal&lt;br /&gt;
+US Bank&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h3&gt;&lt;a href=&quot;#miscellaneous&quot;&gt;&lt;b&gt;Miscellaneous:&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Hunter.io&lt;br /&gt;
+Domain.com&lt;br /&gt;
+Gmail&lt;br /&gt;
+Cloudflare&lt;br /&gt;
+Pay.gov&lt;/p&gt;
+
+&lt;pre&gt;
+
+
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;core&quot;&gt;Core&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Drive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-drive.png&quot; alt=&quot;Drive&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As mentioned in a &lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/blog/looking-forward-with-teamscode/&quot;&gt;previous blog post&lt;/a&gt;, we store all of our files in a shared &lt;a class=&quot;a&quot; href=&quot;https://drive.google.com&quot;&gt;Google Drive&lt;/a&gt; folder. This includes things like our problem sets, input files, scoreboards, registration data, contacts, finances, and much, much more. Organizing a programming contest requires a lot of planning, so it’s useful to have a centralized location for all your resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Slack&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-slack.png&quot; alt=&quot;Slack&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; is a messaging platform that we use for the majority of our internal communications. Slack allows us to create channels for specific purposes, such as to discuss our Washington and Oregon contests separately or direct message certain members. We use Slack almost every single day because of how important it is to communicate with each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Typeform&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-typeform.png&quot; alt=&quot;Typeform&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://www.typeform.com/&quot;&gt;Typeform&lt;/a&gt; is a form and survey builder that we use for a variety of purposes. Beyond just using Typeform for contest registration, it works well in other ways like collecting feedback or collecting applications to join TeamsCode.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-github.png&quot; alt=&quot;GitHub&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We host our website on &lt;a class=&quot;a&quot; href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;. GitHub allows several of us to edit and add to the website easily. At the same time, since teamscode.com is a static site, we can host it for free using GitHub Pages, meaning any changes we push to GitHub will automatically update the website.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trello&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-trello.png&quot; alt=&quot;Trello&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://trello.com&quot;&gt;Trello&lt;/a&gt; is a tool that we use to plan our tasks and pretty much anything else we want to do with it. With Trello, you have boards, and within each board, you can create individual cards which are ordered by lists. We frequently create &lt;a class=&quot;a&quot; href=&quot;https://www.atlassian.com/agile/kanban/boards&quot;&gt;Kanban&lt;/a&gt; boards in Trello, meaning that we put tasks in “Pending”, “In Progress”, and “Done” lists to keep track of our progress.&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Zoho Mail&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-zoho.png&quot; alt=&quot;Zoho Mail&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We use &lt;a class=&quot;a&quot; href=&quot;https://www.zoho.com/mail/&quot;&gt;Zoho Mail&lt;/a&gt; for our email platform. Emails like support@teamscode.com and contest@teamscode.com go to our primary inbox, while emails like mihs@teamscode.com and oregon@teamscode.com are linked to separate inboxes. We used to use teamscode1@gmail.com with Gmail but switched to Zoho in order to use email addresses with our custom domain, teamscode.com.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MailChimp&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-mailchimp.png&quot; alt=&quot;MailChimp&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://mailchimp.com/&quot;&gt;MailChimp&lt;/a&gt; is what we use to send out mass email campaigns. We usually send out one to two emails per contest that we organize: one to announce when registration opens and one to announce when registration is about to close. The goal here is to let past participants know about new opportunities without spamming their inboxes too much.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;appear.in&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-appear.png&quot; alt=&quot;appear.in&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While Slack is essential to our operations, it doesn’t offer group video chats on our plan. To deal with this, we use &lt;a class=&quot;a&quot; href=&quot;https://appear.in/&quot;&gt;appear.in&lt;/a&gt; to make calls of up to four people. Given that our members are located across two states, it’s often necessary to have these video calls when messaging simply doesn’t cut it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Facebook&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-facebook.png&quot; alt=&quot;Facebook&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On &lt;a class=&quot;a&quot; href=&quot;https://www.facebook.com/teamscode&quot;&gt;Facebook&lt;/a&gt;, we post important updates or news regarding TeamsCode contests, lessons, or blog posts. It’s useful to create a page for your contest in order to increase your outreach, and it doesn’t take much time at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-twitter.png&quot; alt=&quot;Twitter&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Similar to Facebook, we post updates on &lt;a class=&quot;a&quot; href=&quot;https://twitter.com/teamscode&quot;&gt;Twitter&lt;/a&gt; as well. Be sure to follow us or retweet our posts!&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;automation&quot;&gt;Automation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Zapier&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-zapier.png&quot; alt=&quot;Zapier&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt; primarily allows us to connect Typeform with other apps like Zoho Mail and Google Sheets to send automated emails and save our registration data in our Drive. However, this is only a fraction of what Zapier offers in terms of automation; there are over 1000 apps that you can connect and automate actions for. Organizing a contest can entail repetitive work, so it’s worth experimenting with Zapier to see if you can speed up the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Automate.io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-automate.png&quot; alt=&quot;Automate.io&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://automate.io/&quot;&gt;Automate.io&lt;/a&gt; similarly helps us automate tasks. We’ve set up Automate.io to send messages in our Slack workspace notifying us of new entries to our Typeforms, meaning we don’t have to constantly check back and see if we’re getting new responses. Like Zapier, Automate.io offers a wide range of apps that you can integrate with.&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Piktochart&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-piktochart.png&quot; alt=&quot;Piktochart&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://piktochart.com/&quot;&gt;Piktochart&lt;/a&gt; is useful for creating beautiful graphics, whether that be for &lt;a class=&quot;a&quot; href=&quot;https://create.piktochart.com/output/32220679-press-kit&quot;&gt;press kits&lt;/a&gt; or for &lt;a class=&quot;a&quot; href=&quot;https://twitter.com/TeamsCode/status/1105303604561240065&quot;&gt;sponsor thanks&lt;/a&gt;. Piktochart offers a lot of templates for you to work off of, or you could start from scratch if you’re good at design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Canva&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-canva.png&quot; alt=&quot;Canva&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://www.canva.com/&quot;&gt;Canva&lt;/a&gt; is an alternative to Piktochart; we’ve used it for such things as our &lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/assets/press_images/infographic.pdf&quot;&gt;infographic&lt;/a&gt;. Like Piktochart, Canva provides a ton of free templates for you to choose from.&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;purchases&quot;&gt;Purchases&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Amazon&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-amazon.png&quot; alt=&quot;Amazon&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of our purchases come from &lt;a class=&quot;a&quot; href=&quot;https://www.amazon.com/&quot;&gt;Amazon&lt;/a&gt;, which includes things like prizes, extension cords, flash drives, etc. The reason why is pretty self-explanatory: Amazon is one of the easiest and quickest e-commerce sites to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edco&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-edco.png&quot; alt=&quot;Edco&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing Amazon can’t provide us is custom-engraved medals. Instead, we use &lt;a class=&quot;a&quot; href=&quot;https://www.edco.com/&quot;&gt;Edco&lt;/a&gt;, which has historically been great at providing us customization (we require six different engravings: 2 divisions * 3 places per division = 6) at a low price. Keep in mind though that it takes time to make these medals and ship them, so you want to order medals at least two weeks before your event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VistaPrint&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-vistaprint.png&quot; alt=&quot;VistaPrint&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At our last two MIHS contests, we ordered banners from &lt;a class=&quot;a&quot; href=&quot;https://www.vistaprint.com/&quot;&gt;VistaPrint&lt;/a&gt;. Vistaprint provides a large selection of templates to use for the banners, and they also provide other services like flyers and t-shirts that we haven’t used yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UberPrints and Zazzle&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;UberPrints and Zazzle are worth mentioning; we’ve used both these companies for custom-printed t-shirts before. However, there are a lot of t-shirt companies out there, and we usually just choose whichever is cheapest for us at the time.&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;finances&quot;&gt;Finances&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PayPal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-paypal.png&quot; alt=&quot;PayPal&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of our payments go through &lt;a class=&quot;a&quot; href=&quot;https://www.paypal.com&quot;&gt;PayPal&lt;/a&gt;. Before, when we charged a registration fee, we sent out invoices through PayPal, and we currently still receive sponsorships through the site. A lot of our purchases can also be made through PayPal. It makes life a lot easier to use PayPal rather than to rely on our bank account’s debit cards and wire transfers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;US Bank&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-usbank.png&quot; alt=&quot;US Bank&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As mentioned above, we have a bank account, which is set up through &lt;a class=&quot;a&quot; href=&quot;https://www.usbank.com/index.html&quot;&gt;US Bank&lt;/a&gt;. A bank account honestly may not be necessary; we initially managed money through our school and only created a bank account after we became a 501(c)(3) nonprofit organization. We do use our bank debit cards to make purchases on Amazon since they don’t accept PayPal.&lt;/p&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hunter.io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-hunter.png&quot; alt=&quot;Hunter.io&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://hunter.io/&quot;&gt;Hunter.io&lt;/a&gt; allows you to find email addresses of a certain domain (e.g. teamscode.com would give you support@teamscode.com, contests@teamscode.com, and several others). This is useful if you want to reach out to certain companies for sponsorships. However, it’s important to avoid spamming a bunch of different emails and doing other unethical things with the emails you find.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Domain.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-domain.png&quot; alt=&quot;Domain.com&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We registered teamscode.com through &lt;a class=&quot;a&quot; href=&quot;https://www.domain.com/&quot;&gt;Domain.com&lt;/a&gt; as well as codemihs.com, our old domain name. If you’re looking to buy a domain, there are a variety of domain name registrars out there like Namecheap, GoDaddy, and Google Domains. To be completely honest, if we were to buy another domain, this time I’d prefer to do it through Namecheap instead of Domain.com.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gmail&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-gmail.png&quot; alt=&quot;Gmail&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before we switched to Zoho Mail, we used &lt;a class=&quot;a&quot; href=&quot;https://www.google.com/gmail/about/#&quot;&gt;Gmail&lt;/a&gt; and used teamscode1@gmail.com as our primary email. It’s definitely not necessary to get an email with a custom domain; for example, teamscode@gmail.com would not have been a bad email, but unfortunately, we were unable to get it and in our case preferred to go with [name]@teamscode.com.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-cloudflare.png&quot; alt=&quot;Cloudflare&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;a&quot; href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt; provides free SSL for teamscode.com, meaning we get the secure HTTPS rather than HTTP. Nowadays, there are many ways to get SSL for free (another option besides Cloudflare is &lt;a class=&quot;a&quot; href=&quot;https://letsencrypt.org/&quot;&gt;Let’s Encrypt&lt;/a&gt;), and with Google pushing sites towards HTTPS, it’s worth considering for your contest website.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pay.gov&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog_images/resources-pay.png&quot; alt=&quot;Pay.gov&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lastly, if any of you are interested in eventually becoming a 501(c)(3) nonprofit organization, you’ll need to do so through &lt;a class=&quot;a&quot; href=&quot;https://pay.gov/public/home&quot;&gt;Pay.gov&lt;/a&gt; by filling out Form 1023 or 1023 EZ. For smaller, eligible organizations (TeamsCode included), Form 1023 EZ is what you should fill out as it’s shorter (3 vs. 28 pages) and cheaper ($275 vs. $600).&lt;/p&gt;
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;hr /&gt;
+
+&lt;pre&gt;
+
+&lt;/pre&gt;
+&lt;p&gt;Most, if not all of our resources are covered in this blog post. As part of our mission to &lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/blog/looking-forward-with-teamscode/&quot;&gt;become more transparent&lt;/a&gt;, we’re hoping that revealing our internal workings will help other students organize their own contests. Of course, these tools are simply what work well for us; there are many other resources out there, and we’re constantly looking for new things ourselves!&lt;/p&gt;
+
+&lt;p&gt;We’ll try to continue posting guides on our blog in the coming months. In the meantime, if you have any questions regarding these resources or are looking to organize a contest, don’t hesitate to reach out to us at &lt;a class=&quot;a&quot; href=&quot;mailto:support@teamscode.com&quot;&gt;support@teamscode.com&lt;/a&gt;!&lt;/p&gt;</content><author><name>Alan Bi</name></author><summary type="html">Since the first MIHS Programming Contest in the spring of 2017, countless student-led programming contests have been hosted, and not just by TeamsCode: both Issaquah and Interlake High School have successfully started their own events. We are ecstatic to see this and believe that more student-led contests contribute to a number of benefits, including the following:</summary></entry><entry><title type="html">Looking Forward With Teamscode</title><link href="http://localhost:4000/blog/looking-forward-with-teamscode/" rel="alternate" type="text/html" title="Looking Forward With Teamscode" /><published>2019-03-24T00:00:00-07:00</published><updated>2019-03-24T00:00:00-07:00</updated><id>http://localhost:4000/blog/looking-forward-with-teamscode</id><content type="html" xml:base="http://localhost:4000/blog/looking-forward-with-teamscode/">&lt;p&gt;On April 1st, 2017, TeamsCode hosted its first high school programming contest. Back then, we were called &lt;em&gt;CodeMIHS&lt;/em&gt;, but we soon changed our name to TeamsCode to match our ambitions and our mission. We wanted to both grow the organization to multiple high schools and states, beyond MIHS, as well as promote a collaborative atmosphere where high schoolers can actually have fun learning to code.&lt;/p&gt;
+
+&lt;p&gt;Two years later, we’re very happy with the progress we’ve made. However, we want to do more to encourage students to host their own events. There’s a few steps we’re looking to take in order to achieve this goal.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Transparency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We want to make the day-to-day operations at TeamsCode more available to the public. This includes TeamsCode’s finances, the contest-hosting process, internal communication, and much more. We pursued this goal recently with &lt;a class=&quot;a&quot; href=&quot;../analyzing-registration-data/&quot;&gt;our last blog post&lt;/a&gt;, where we revealed the trends over the years in our MIHS Programming Contest registration data.&lt;/p&gt;
+
+&lt;p&gt;Our organization stores all of its information in Google Drive; this is where you can find &lt;a class=&quot;a&quot; href=&quot;https://drive.google.com/drive/folders/1jevz_2ipnmOzzDFOoTsfr0_9vpYVBcJU?usp=drive_open&quot;&gt;all past contest photos&lt;/a&gt; as well! We communicate in our Slack group, which now has over 30 members – however, many of these members have moved on after writing some initial programming lessons (be sure to check out our &lt;a class=&quot;a&quot; href=&quot;../../learn&quot;&gt;Learn page&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;In our Google Drive, we have an &lt;strong&gt;Onboarding Doc&lt;/strong&gt;, that covers everything newcomers need to know about TeamsCode’s history, its structure, and contest-hosting process. While we’re not releasing the entire document yet (likely coming soon!), we have an in-depth, 7-page document covering how to host a programming contest. This is now available &lt;a class=&quot;a&quot; href=&quot;https://docs.google.com/document/d/1YEc1ZQphowgJ0VZhhOxOGpaM1a1xESMFo518ui-BywY/edit?usp=sharing&quot;&gt;&lt;strong&gt;HERE&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;100%&quot; src=&quot;/assets/blog_images/internal-doc-sneak-peak.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We intend to release more about TeamsCode’s internal processes in the future, as well as create a more streamlined process for anybody to host their own programming contest.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improved Onboarding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When Alan and I founded TeamsCode, we didn’t know where to start. The only other contests were PSCSTA and PLU, and they had large teams of adults with connections to large companies and universities.&lt;/p&gt;
+
+&lt;p&gt;With the help of many teachers and administrators, especially Henterson Carlisle at MIHS and Earl Bergquist at Garfield High School (as well as promotion support from the PSCSTA), we were able to discover the process and host the contest. However, we want to make sure the path for new students is much clearer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;100%&quot; src=&quot;/assets/blog_images/catlin-gabel-contest.JPG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We hope to achieve part of this through further transparency of TeamsCode, but we know that we can do more. We are currently discussing how we can use our platform to potentially partner with other organizations, including the &lt;a class=&quot;a&quot; href=&quot;http://pscsta.org/&quot;&gt;PSCSTA&lt;/a&gt;, to encourage more students to pursue a career in computer science.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stability and Expansion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our last goal is twofold: we want to maintain the events that we have (&lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/contests/spring-2019-mihs-programming-contest/&quot;&gt;MIHS in Washington&lt;/a&gt; and &lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/contests/catlin-gabel-fall-programming-contest/&quot;&gt;CGS in Oregon&lt;/a&gt;) while growing TeamsCode to more locations.&lt;/p&gt;
+
+&lt;p&gt;In the summer of 2018, we tried to pursue hosting an event in California. We emailed over fifty teachers and other contacts, but could not find anybody interested in supporting this idea.&lt;/p&gt;
+
+&lt;p&gt;Finally, in September 2018, we found a friend of a friend at &lt;a class=&quot;a&quot; href=&quot;https://www.hw.com/&quot;&gt;Harvard-Westlake High School&lt;/a&gt; who was interested in hosting an event with TeamsCode. However, due to the student’s increasingly daunting schedule, we were forced to abandon that project.&lt;/p&gt;
+
+&lt;p&gt;We still have our goal of growth, but now we also have to manage an internal transition as TeamsCode’s founders (Chris and Alan) are moving on to college. We have many ideas, and are continuing to pursue collaboration with other students in order to grow the organization and host more events. We’re considering reaching out to &lt;a class=&quot;a&quot; href=&quot;https://hackclub.com&quot;&gt;Hack Club&lt;/a&gt;, hosting other events (including bootcamps, hackathons, or development challenges), and advertising our &lt;a class=&quot;a&quot; href=&quot;https://teamscode.com/learn/programming-practice/&quot;&gt;Programming Practice platform&lt;/a&gt; to reach more students. Most of all, we’re looking to continue building TeamsCode with an open mindset and an ambitious team.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you have an idea that you want to share, please reach out to &lt;a class=&quot;a&quot; href=&quot;mailto:support@teamscode.com&quot;&gt;support@teamscode.com&lt;/a&gt;, and we’ll respond promptly.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;</content><author><name>Chris Elliott</name></author><summary type="html">On April 1st, 2017, TeamsCode hosted its first high school programming contest. Back then, we were called CodeMIHS, but we soon changed our name to TeamsCode to match our ambitions and our mission. We wanted to both grow the organization to multiple high schools and states, beyond MIHS, as well as promote a collaborative atmosphere where high schoolers can actually have fun learning to code.</summary></entry></feed>

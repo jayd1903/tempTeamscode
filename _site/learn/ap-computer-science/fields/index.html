@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/ap-computer-science/">
+                  <div class="lesson-sidebar-title">
+                    AP Computer Science
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                      <a href="/learn/ap-computer-science/#7"><div class="lesson-sidebar-header">
+                        Introduction to Classes
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/classes/">
+  <div class="lesson-sidebar-item">
+    Classes
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/using-multiple-classes/">
+  <div class="lesson-sidebar-item">
+    Using Multiple Classes
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/ap-computer-science/fields/">
+  <div class="lesson-sidebar-item">
+    Fields
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/method-types/">
+  <div class="lesson-sidebar-item">
+    Method Types
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/overview-lesson-3/">
+  <div class="lesson-sidebar-item">
+    Overview Lesson #3
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Fields
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>All about fields and using constructors to assign them.</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<p>In the lesson about classes, you learned about how to create instance variables to store important data inside each instance of that class, although nothing was covered in too much detail. To review, let’s take a look at the following code example.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Dog {
+
+        private String name;
+
+        private int age;
+
+        public Dog(String name, int age) {
+
+            this.name = name;
+
+            this.age = age;
+
+        }       
+
+    }
+</code></pre></div></div>
+
+<p>This class has a constructor that accepts a name and an age and creates a new Dog object, storing this information in the instance variables. Since this wasn’t covered deeply in the last lesson, there are probably a lot of questions that you have. For example, why are the instance variables private when everything else we’ve worked with has been public? Another question could be why we need to include <code>this</code> when setting these variables?</p>
+
+<p>We are first going to cover the meaning of the <code>this</code> keyword. There are two ways of using <code>this</code>. In the examples we’ve given in the past, using <code>this</code> allows you to refer to the current object that you’re located in. In the example above, there are two <code>name</code> and two <code>age</code> variables that you could be referring to. Without including <code>this</code> (for example: <code>name = name</code>), Java assumes you are referencing the local variable name both times, meaning that nothing is going to happen to that <code>private String name</code> variable. In order to store the values of those local variable given to you into the instance variables, you have to include <code>this.</code> to tell Java that you’re referring to the instance variables in <em>this</em> object, that way the values passed in through the constructor can be properly stored. To make more sense of this, try running the following code on your computer:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Test {
+
+        private int num; // Default value is 0
+
+        public Test (int num) {
+
+            System.out.println(this.num); // Will print 0
+
+            num = num;
+
+            System.out.println(this.num); // Will still print 0
+
+            this.num = num;
+
+            System.out.println(this.num); // Will finally print 5
+
+        }
+
+        public static void main(String[] args) {
+
+            Test t = new Test(5);
+
+        }
+
+    }
+</code></pre></div></div>
+
+<p>Using <code>this</code> helps to avoid confusion between local and global variables. Of course, if none of the variables share the same name, you do not need to include <code>this</code> when referring to instance variables as Java will easily be able to figure it out.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Test {
+
+        private int num1; // Default value is 0
+
+        public Test (int num2) {
+
+            num1 = num2; // this.num1 is optional
+
+            System.out.println(num1); // Will print 5
+
+        }
+
+        public static void main(String[] args) {
+
+            Test t = new Test(5);
+
+        }
+
+    }
+</code></pre></div></div>
+
+<p>Another way to use <code>this</code> is when you have multiple constructors. In the previous lessons, we have had only one constructor, but it can be useful to have multiple in a similar way to method overloading. This allows the user to pass in whatever information they have when creating a new object, like in the example below:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public Dog() { // Creates a Dog without a name or age
+
+        this.name = null;
+
+        this.age = 0;
+
+    }
+
+    public Dog(String name) { // Creates a Dog with only a name
+
+        this.name = name;
+
+        this.age = 0;
+
+    }
+
+    public Dog(int age) { // Creates a Dog with only an age
+
+        this.name = null;
+
+        this.age = age;
+
+    }
+
+    public Dog(String name, int age) { // Creates a Dog with both name and age
+
+        this.name = name;
+
+        this.age = age;
+
+    }
+</code></pre></div></div>
+
+<p>This gives a lot more flexibility to the clients of this class when they want to create a new <code>Dog</code>. Of course, there is a lot of repetitive code in having these four different constructors, which can be solved by using <code>this</code> in the second way. When you are in one constructor, you can simplify the code by calling another constructor by using <code>this( /* *ARGUMENTS* */)</code>, with whatever arguments that constructor requires inside the parentheses. So, similar to calling a method by typing its name, you can call a constructor from another constructor by using <code>this</code>. In this example, the first three constructors all call the last constructor, which reduces repetition of code.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public Dog() { // Creates a Dog without a name or age
+
+        this(null, 0);
+    }
+
+    public Dog(String name) { // Creates a Dog with only a name
+
+        this(name, 0);
+
+    }
+
+    public Dog(int age) { // Creates a Dog with only an age
+
+        this(null, age);
+
+    }
+
+    public Dog(String name, int age) { // Creates a Dog with both name and age
+
+        this.name = name;
+
+        this.age = age;
+
+    }
+</code></pre></div></div>
+
+<p>Now you still might be wondering why all this data is made private instead of public. This is to prevent outside users of the class from having too much access to it. By keeping this data private, you can ensure that no one is messing with the data and you can choose how much authority to give outside clients. Of course, most of the time, you want to give people some access to this data, which is where accessor and mutator methods come in (also referred to as getters and setters).</p>
+
+<p>In the <code>Dog</code> class, you can create an accessor method to allow people to get the name and age of a <code>Dog</code> as well as a mutator method to allow people to change the dog’s name or age. For example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public String getName() {
+
+        return name;
+
+    }
+
+    public int getAge() {
+
+        return age;
+
+    }
+
+    public void setName(String name) {
+
+        this.name = name;
+
+    }
+
+    public void setAge(int age) {
+
+        this.age = age;
+
+    }
+</code></pre></div></div>
+
+<p>In this way, you control how much access others get by changing these getters and setters. For example, you might not want people to be able to change the age and name, so you could simply remove the setter methods and not worry about it anymore. This process of hiding internal data and providing getters and setters is called <strong>e</strong><strong>ncapsulation</strong>.</p>
+
+<p>If you’re still not convinced of the benefits of encapsulation, take a look at the following example code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Dog {
+
+        public String name;
+
+        public int age;
+
+        public Dog(String name, int age) {
+
+            this.name = name;
+
+            this.age = age;
+
+        }
+
+    }
+
+    // Some code located outside the Dog class 
+
+    public static void main(String[] args) {
+
+        Dog d = new Dog("Foo", 7);
+
+        d.name = null;
+
+        d.age = -10;
+    }
+</code></pre></div></div>
+
+<p>In the main method, a <code>Dog</code> is created with the name “Foo” and age 7. However, because the instance variables of <code>Dog</code> are public, the client was able to access and change the data by typing <code>d.name</code> and <code>d.age</code>. Now, the variable <code>d</code> has an invalid name and age. However, if <code>Dog</code> had been following the rules of encapsulation by keeping field variables private, this wouldn’t have been a problem, as the only way to modify the data is through mutator methods, which can be changed to only allow valid values.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public void setName(String name) {
+
+        // Prevents a null name being set
+
+        if (name == null) {
+
+            throw new IllegalArgumentException();
+
+        }
+
+        this.name = name;
+
+    }
+
+    public void setAge(int age) {
+
+        // Prevents a negative age
+
+        if (age &lt; 0) {
+
+            throw new IllegalArgumentException();
+
+        }
+
+        this.age = age;
+
+    }   
+</code></pre></div></div>
+
+<p>Up to this point, we have only talked about instance variables, data that is specific to each instance of the class. However, what if we wanted to keep track of how many total <code>Dogs</code> have been created? This would no longer be an instance variable but instead a class variable because it’s not specific to any instance of the <code>Dog</code> class. We can create this by adding the word <strong>static</strong> in the variable declaration. With static variables, it can often be okay to have them as public, although using getters and setters with a private static variable can work as well.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Dog {
+
+        private String name;
+
+        private int age;
+
+        public static int totalDogs = 0;
+
+        public Dog(String name, int age) {
+
+            this.name = name;
+
+            this.age = age;
+
+            totalDogs++;
+
+        }
+
+    }
+
+    // Some code located outside the Dog class 
+
+    public static void main(String[] args) {
+
+        Dog d1 = new Dog("Foo", 7);
+
+        Dog d2 = new Dog("Bar", 8);
+
+        Dog d3 = new Dog("Baz", 3);
+
+        System.out.println(Dog.totalDogs); // Will print 3
+    }
+</code></pre></div></div>
+
+<p>Every time a new <code>Dog</code> is created, <code>totalDogs</code> increases by 1, keeping track of how many total <code>Dogs</code> have been created. To access a static variable, since it belongs to the class itself, simply type the class name followed by the variable name (in this example, <code>Dog.totalDogs</code>).</p>
+
+<p>The last keyword you need to know is <strong>final</strong>. If you want to prevent an instance variable from being changed after it is initialized, you can add <code>final</code> to it:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Dog {
+
+        private final String name;
+
+        private int age;
+
+        public Dog(String name, int age) {
+
+            this.name = name;
+
+            this.age = age;
+
+        }
+
+    }
+</code></pre></div></div>
+
+<p>Now, the compiler will give you an error if anyone tries to change the value of <code>name</code>, because once it was initialized in the constructor, the value in that variable became finalized.</p>
+
+<p>When used with the <code>static</code> keyword, final variables essentially become what are known as constant variables that keep track of values that are applicable to all instances of that class and never change. For example, if each <code>Dog</code> had a method called <code>bark()</code> that printed out the exact same message each time, like “Bark!”, to the console, a static final variable would generally be used. When naming these static final variables, you use all uppercase letters and underscores between words.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    public class Dog {
+
+        private final String name;
+
+        private int age;
+
+        public static final String DOG_NOISE = "Bark!";
+
+        public Dog(String name, int age) {
+
+            this.name = name;
+
+            this.age = age;
+
+        }
+
+        public void bark() {
+
+            System.out.println(DOG_NOISE);
+
+        }
+
+    }
+</code></pre></div></div>
+
+<p>This makes it very easy if you decide later on that you want to change what noise a <code>Dog</code> makes (Ex: changing “Bark!” to “Woof!”) because all you have to do is edit the final static variable <code>DOG_NOISE</code> at the top of the class, whereas if you didn’t have this variable, you would have to go through the class and make changes at every place you had the string “Bark!”.</p>
+
+<h1>Lesson Quiz</h1>
+
+<h3>1. What is the difference between static and final?</h3>
+
+<form>
+    <div>
+        <input type="radio" value="a" name="cc" onchange="check(this, 'b')" />
+        a. Static is used for all public variables, final is used for private variables. 
+    </div>
+    <div>
+        <input type="radio" value="b" name="cc" onchange="check(this, 'b')" />
+        b. Static is used to define class variables, final is used to prevent modification.
+    </div>
+    <div>
+        <input type="radio" value="c" name="cc" onchange="check(this, 'b')" />
+        c. Static is used to limit variables to certain values, final is used only after static. 
+    </div>
+</form>
+
+<h3>2. What is the reason for encapsulation?</h3>
+
+<form>
+    <div>
+        <input type="radio" value="a" name="cc" onchange="check(this, 'a')" />
+        a. To restrict the amount of access people have to certain data inside a class.
+    </div>
+    <div>
+        <input type="radio" value="b" name="cc" onchange="check(this, 'a')" />
+        b. To prevent data from ever being changed outside the class after initialization. 
+    </div>
+    <div>
+        <input type="radio" value="c" name="cc" onchange="check(this, 'a')" />
+        c. To reduce memory needed to store data found in classes. 
+    </div>
+</form>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Alan Bi</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

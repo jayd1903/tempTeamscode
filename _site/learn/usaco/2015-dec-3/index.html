@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/usaco/">
+                  <div class="lesson-sidebar-title">
+                    USACO Problems
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                      <a href="/learn/usaco/#1"><div class="lesson-sidebar-header">
+                        2015-2016 Usaco Platinum Contest
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/usaco/2015-dec-1/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 1 | Max Flow
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2015-dec-2/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 2 | High Card Low Card (Platinum)
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/usaco/2015-dec-3/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 3 | Counting Haybales
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-feb-1/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 1 | Load Balancing
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-feb-2/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 2 | Fenced In
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-jan-1/">
+  <div class="lesson-sidebar-item">
+    Jan, Problem 1 | Fort Moo
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-open-1/">
+  <div class="lesson-sidebar-item">
+    Open, Problem 1 | 262144
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Dec, Problem 3 | Counting Haybales
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>A writeup of Dec number 3 from the USACO platinum problem set</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<h3 id="counting-haybales"><a href="http://usaco.org/index.php?page=viewproblem2&amp;cpid=578">Counting Haybales</a></h3>
+
+<h5 id="problem-statement">Problem Statement</h5>
+<blockquote>
+  <p>FJ’s farm consists of N fields in a row, conveniently numbered 1…N. In each field there can be any number of haybales. Farmer John’s instructions contain three types of entries:</p>
+
+  <p>1) Given a contiguous interval of fields, add a new haybale to each field.
+2) Given a contiguous interval of fields, determine the minimum number of haybales in a field within that interval.
+3) Given a contiguous interval of fields, count the total number of haybales inside that interval.</p>
+</blockquote>
+
+<p>From these three requirements, we know the problem probably requires implementing a data structure. Specifically, such a data structure must support <strong>O(log N)</strong> range updates, range sums, and range minimum queries.</p>
+
+<h5 id="lazy-rmq">Lazy RMQ</h5>
+
+<p>In order to support range operations, we need to augment the traditional segment tree.</p>
+
+<p>The rationale behind our solution is that we want to postpone updates as much as possible. Due to the nature of a segment tree, we can often apply updates to an entire range at a time. We only need to resolve these updates when we’re actually querying inside the range.</p>
+
+<p>For example, consider the node with value <strong>9</strong>. It spans the range 0 to 2. If we wanted to make a range update from say, 0 to 3, we would only need to update nodes <strong>9</strong> and <strong>7</strong>. Node <strong>9</strong> covers (0, 2) and node <strong>7</strong> covers (3, 3) (these values are inclusive).</p>
+
+<p><img src="https://www.geeksforgeeks.org/wp-content/uploads/segment-tree1.png" alt="" /></p>
+
+<p>In pseudocode, our update function is</p>
+
+<blockquote>
+  <p>Update range(left, right, delta):</p>
+  <ol>
+    <li>If our current interval is completely inside <strong>(left, right)</strong>, change our node’s pending update counter by <strong>delta</strong></li>
+    <li>If our current node has pending updates, apply it, and pass on these updates downwards to its child nodes.</li>
+    <li>If our current interval is overlaps with but is not inside <strong>(left, right)</strong>, recursively call update on the child nodes. Then recalculate our current node’s value.</li>
+  </ol>
+</blockquote>
+
+<p>A Java implementation is as follows</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="cm">/**
+   * @param idx  Index
+   * @param il  Left bound of interval at idx
+   * @param ir  Right bound of interval at idx
+   * @param delta  Amount to update each element in (ul, ur) by
+   * @param ul  Left bound of update interval
+   * @param ur  Right bound of update interval
+   */</span>
+   <span class="kt">void</span> <span class="nf">update</span><span class="o">(</span><span class="kt">int</span> <span class="n">idx</span><span class="o">,</span> <span class="kt">int</span> <span class="n">il</span><span class="o">,</span> <span class="kt">int</span> <span class="n">ir</span><span class="o">,</span> <span class="kt">int</span> <span class="n">delta</span><span class="o">,</span> <span class="kt">int</span> <span class="n">ul</span><span class="o">,</span> <span class="kt">int</span> <span class="n">ur</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// If completely contained, change current update counter</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">ul</span> <span class="o">&lt;=</span> <span class="n">il</span> <span class="o">&amp;&amp;</span> <span class="n">ir</span> <span class="o">&lt;=</span> <span class="n">ur</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">]</span> <span class="o">+=</span> <span class="n">delta</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="n">processLazy</span><span class="o">(</span><span class="n">idx</span><span class="o">);</span>
+
+    <span class="k">if</span> <span class="o">(</span><span class="n">il</span> <span class="o">&gt;</span> <span class="n">ur</span> <span class="o">||</span> <span class="n">ir</span> <span class="o">&lt;</span> <span class="n">ul</span> <span class="o">||</span> <span class="o">(</span><span class="n">ul</span> <span class="o">&lt;=</span> <span class="n">il</span> <span class="o">&amp;&amp;</span> <span class="n">ir</span> <span class="o">&lt;=</span> <span class="n">ur</span><span class="o">))</span> <span class="o">{</span>
+      <span class="k">return</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="c1">// Recursively called upon child nodes</span>
+    <span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="o">(</span><span class="n">il</span> <span class="o">+</span> <span class="n">ir</span><span class="o">)</span> <span class="o">/</span> <span class="mi">2</span><span class="o">;</span>
+    <span class="n">update</span><span class="o">(</span><span class="n">l</span><span class="o">(</span><span class="n">idx</span><span class="o">),</span> <span class="n">il</span><span class="o">,</span> <span class="n">mid</span><span class="o">,</span> <span class="n">delta</span><span class="o">,</span> <span class="n">ul</span><span class="o">,</span> <span class="n">ur</span><span class="o">);</span>
+    <span class="n">update</span><span class="o">(</span><span class="n">r</span><span class="o">(</span><span class="n">idx</span><span class="o">),</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">ir</span><span class="o">,</span> <span class="n">delta</span><span class="o">,</span> <span class="n">ul</span><span class="o">,</span> <span class="n">ur</span><span class="o">);</span>
+
+    <span class="c1">// Recalculate current node</span>
+    <span class="n">recalc</span><span class="o">(</span><span class="n">idx</span><span class="o">);</span>
+  <span class="o">}</span>
+  <span class="kt">void</span> <span class="nf">processLazy</span><span class="o">(</span><span class="kt">int</span> <span class="n">idx</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+      <span class="c1">// Apply pending update</span>
+      <span class="n">tree</span><span class="o">[</span><span class="n">idx</span><span class="o">]</span> <span class="o">+=</span> <span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">];</span>
+
+      <span class="c1">// Pass pending update downwards to child nodes</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">valid</span><span class="o">(</span><span class="n">l</span><span class="o">(</span><span class="n">idx</span><span class="o">)))</span> <span class="n">updates</span><span class="o">[</span><span class="n">l</span><span class="o">(</span><span class="n">idx</span><span class="o">)]</span> <span class="o">+=</span> <span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">];</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">valid</span><span class="o">(</span><span class="n">r</span><span class="o">(</span><span class="n">idx</span><span class="o">)))</span> <span class="n">updates</span><span class="o">[</span><span class="n">r</span><span class="o">(</span><span class="n">idx</span><span class="o">)]</span> <span class="o">+=</span> <span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">];</span>
+
+      <span class="c1">// Reset the update amount</span>
+      <span class="n">updates</span><span class="o">[</span><span class="n">idx</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<h5 id="range-sums">Range Sums</h5>
+<p>Similarly, this technique can be applied to a Segment Tree for range sums. That implementation is left as an exercise to the reader.</p>
+
+<p>My solution can be found <a href="https://github.com/chen-robert/writeups/blob/master/data/docs/usaco/2015/code/haybales.java">here</a></p>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Robert Chen</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

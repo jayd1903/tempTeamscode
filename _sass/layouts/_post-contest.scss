@@ -1,0 +1,62 @@
+.post-contest-layout {
+  .header {
+    background: $header-bkg-post-contest-layout;
+    color: $header-fnt-color-post-contest-layout;
+  }
+}
+
+.post-contest-header {
+  background: linear-gradient(180deg, #101010, #444444);
+  padding: 164px 0 40px 0;
+  box-shadow: 0px 0px 10px grey;
+  margin-top: -64px;
+
+  .post-contest-header-section {
+    color: $post-contest-header-fnt-color;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+
+    .h1 {
+      margin-bottom: 20px;
+    }
+
+    .post-contest-header-section-info {
+      div {
+        margin-bottom: 5px;
+      }
+      #cohost {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.post-contest-body {
+  padding: 0 0 40px 0;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

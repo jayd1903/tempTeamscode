@@ -1,0 +1,118 @@
+.post-lesson-layout {
+  .header {
+    background: $header-bkg-post-lesson-layout;
+    color: $header-fnt-color-post-lesson-layout;
+  }
+}
+
+.post-lesson-header {
+  padding: 164px 0 40px 0;
+  margin-top: -64px;
+
+  .post-lesson-header-section {
+    color: $post-lesson-header-fnt-color;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+
+    .h1 {
+      margin-bottom: 10px;
+    }
+
+    .post-lesson-header-section-info {
+      div {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.post-lesson-body {
+  padding: 0 0 40px 0;
+}
+
+.lesson-sidebar-item {
+  color: #444; 
+  margin-bottom: 12px; 
+  font-size: 15px;
+}
+
+.lesson-sidebar-header {
+  color: #5176E0; 
+  margin-bottom: 12px; 
+  font-size: 17px;
+  margin-left: -10px;
+}
+
+.lesson-sidebar-title {
+  color: #5176E0; 
+  margin-bottom: 12px; 
+  font-size: 20px;
+  margin-left: -20px;
+}
+
+.lesson-sidebar-item:hover {
+    color: #2048D8;
+    cursor: pointer;
+}
+
+.lesson-sidebar-title:hover {
+    color: #2048D8;
+    cursor: pointer;
+}
+
+.lesson-sidebar-header:hover {
+    color: #2048D8;
+    cursor: pointer;
+}
+
+.current-lesson {
+  .lesson-sidebar-item{
+    color: #5176E0; 
+    border-bottom: solid;
+    border-width: 1px;
+    display: inline-block;
+  }
+}
+
+.sticky-l {
+  position: fixed !important;
+  top: 75px;
+}
+
+.near-bottom-l {
+  position: absolute;
+  bottom: 10px;
+}
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: 20px; /* change this to whatever height you want it */
+}
+
+code {
+  font-family: Inconsolata;
+}
+
+table, th, td {
+  border: 2px solid #5176E0;
+  border-collapse: collapse;
+  font-weight: bold;
+  padding: 6px;
+}
+
+th {
+  color: white;
+  background-color: #5176E0;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}
+
+form div {
+  padding: 10px; 
+  margin: 1px;
+}

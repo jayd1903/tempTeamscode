@@ -1,0 +1,38 @@
+<div class="index-competitions-section-list-item" style="display: inline-block; margin-right: 20px">
+  <a href="{{ include.link }}">
+    <div class="list-item-img">
+      <img src="{{ include.img }}"/>
+    </div>
+    <div class="list-item-info">
+      <div class="list-item-title">
+        {{ include.title }}
+      </div>
+      {% if include.cohost %}
+        <div class="list-item-cohost">
+          Co-Host: {{ include.cohost }}
+        </div>
+      {% elsif include.affiliation %}
+        <div class="list-item-affiliation">
+          Unaffiliated event from {{ include.affiliation }}
+        </div>
+      {% else %}
+        <div class="list-item-cohost" style="visibility: collapse">
+          Co-Host: {{ include.cohost }}
+        </div>
+      {% endif %}
+      {% if include.location %}
+      <div class="list-item-location">
+        {{ include.location }}
+      </div>
+      {% endif %}
+      <div class="list-item-date">
+        {{ include.date }}
+      </div>
+      {% if include.size != '' %}
+        <div class="list-item-size">
+          {{ include.size }} students
+        </div>
+      {% endif %}
+    </div>
+  </a>
+</div>

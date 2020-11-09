@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/ap-computer-science/">
+                  <div class="lesson-sidebar-title">
+                    AP Computer Science
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                      <a href="/learn/ap-computer-science/#2"><div class="lesson-sidebar-header">
+                        Programming in Java
+                      </div></a>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/ap-computer-science/hello-world/">
+  <div class="lesson-sidebar-item">
+    Hello World
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/primitive-variables/">
+  <div class="lesson-sidebar-item">
+    Primitive Variables
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ap-computer-science/advanced-variables/">
+  <div class="lesson-sidebar-item">
+    Advanced Variables
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Hello World
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>The very basic syntax of programming in Java.</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<p><br />
+The very first program that new programmers run is the Hello World class. Create a new class called <code>HelloWorld</code>. At the top of the page, you should see <code>public class HelloWorld {</code> and at the very bottom you should see another <code>}</code>. Type the following code anywhere between the two curly brackets (capitalization matters):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	public static void main(String[] args) {
+
+		System.out.println("Hello, world!");
+
+	}
+</code></pre></div></div>
+
+<p><strong>Note:</strong> Be careful about copying and pasting. If you are using IntelliJ, for example, the compiler won’t be able to recognize the quote “ “ symbols but will recognize these quotes: <code>" "</code></p>
+
+<p>If you run the program, notice that the statement <code>‘Hello, world!’</code> is printed to the screen as a result of you running the <code>System.out.println("Hello, world!");</code> code. This line of code is the most basic Java syntax that you learn and you use it very frequently. You can type other things inside the quotes as well, to print different messages. However, notice that if you try to type something outside of the quotes, IntelliJ highlights it in red and gives you an error. Without the quotes, the computer treats what you wrote as code, and <code>Hello, world</code> isn’t a statement that Java recognizes.</p>
+
+<p>Now, let’s break down what is happening in this example code.</p>
+
+<p>The first thing you’ll notice is the statement <code>public static void main(String[] args) { }</code>. At this stage, all you need to know is that all of your code should be written in between the two curly brackets that follow this header. However, if you want to read more about this, click on <a href="https://docs.oracle.com/javase/tutorial/getStarted/application/">this link</a>, which explains the main method very well.</p>
+
+<p>Next, <code>System</code> refers to the System class, which is a built-in class that serves as the core of every Java program. The following <code>.out</code> means that you want to write something to the screen, or output something, hence the “out.” The <code>.println()</code> is the command that you type in order to finally output something to the console. Within quotations, you can put whatever you want to print out. If you want to better understand the <code>System.out.println()</code> statement, take a look at <a href="https://stackoverflow.com/questions/12002170/what-is-system-out-println-in-system-out-println-in-java">this link</a>.</p>
+
+<p>Finally, the statement is ended by a semicolon, which tells the compiler that the command is finished. At the end of every statement you make, you <strong>must</strong> add a semicolon or else the compiler will give you an error. In most cases, the only time you wouldn’t have a semicolon at the end of a line is when the line is followed by code surrounded with curly brackets <code>{ }</code>, just as how the code you’ve written is wrapped between the pair of brackets following the <code>public static void main(String[] args)</code> line. Right now, you do not need to pay attention to these brackets.</p>
+
+<p>You can also replace <code>println()</code> with <code>print()</code>. Shown below is the difference between the two. On the left, two <code>println</code> statements are made, and on the right, two <code>print</code> statements.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	System.out.println("Hello");		System.out.print(“Hello”);
+
+	System.out.println("World");		System.out.print(“World”);
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	Hello						HelloWorld
+
+	World
+</code></pre></div></div>
+
+<p>Each <code>println</code> command moves on to the next line once it is finished executing, whereas the <code>print</code> command does not. Each of these has its own uses, and it’s up to you to decide which one fits the situation best.</p>
+
+<p>An important part of programming is having good documentation of your code. A comment is a message that you can write in the code that doesn’t affect how the code runs at all, but rather allows you to write something down to help you understand the code or leave a note to yourself in the future. Here is an example of a comment:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	// This is a comment. Everything written after two slashes on a line is
+
+	// ignored by the compiler and is purely for the sake of the programmers. 
+</code></pre></div></div>
+
+<p>Notice that everything that follows the two slashes is “commented out.” There are two other ways to leave comments:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	/* This is another way to write a comment. This way is useful for 
+
+	commenting out large portions of code that you might not need or 
+
+	small snippets of code in the middle of a line. */
+
+	/**
+
+	 * This type of comment is used at the beginning of large portions of
+
+	 * code to provide details about what what the program is doing. 
+
+	 */
+</code></pre></div></div>
+
+<p>Most of the time, you will be using the first and second methods of commenting.</p>
+
+<p>The last thing we will be covering in this lesson is basic programming style. You will have noticed that in your compiler, everything is neatly indented (everything that’s inside a pair of brackets is indented), and in our examples, each statement is put on a new line. These tabs, lines, and spaces are primarily to make the code easy to read and are part of the <a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Java Code Conventions</a>. In reality, all of this is totally optional. For example, the following code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	public static void main(String[] args) {
+
+		System.out.println("Hello");
+
+		System.out.println("Hi");
+
+		System.out.println(); 	// Note: this prints an empty new line and is 
+
+					// the equivalent of System.out.println("");
+
+	}
+</code></pre></div></div>
+
+<p>Can be written as:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	public      static
+
+		void main    ( String  
+
+		[] args ) {System   .out. 
+
+	println  ( "Hello"); System  .  out.println(“Hi”) ;System.out.println (  )  ;}
+</code></pre></div></div>
+
+<p>And it would work the same. Of course, you should never write anything like in this second example because you want people to be able to easily decipher and debug your code.</p>
+
+<h1>Lesson Quiz</h1>
+
+<h3>1. What is the output to the console?</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	System.out.print("Hello there");
+
+	/* hi Hey */  System.out.print("hi");
+
+	/* System.out.println("Hey"); */
+</code></pre></div></div>
+
+<form>
+	<div>
+		<input type="radio" value="a" name="cc" onchange="check(this, 'a')" />
+		a. <code>Hello therehi</code>
+	</div>
+	<div>
+		<input type="radio" value="b" name="cc" onchange="check(this, 'a')" />
+		b. <code>"Hello there"“hi”</code>
+	</div>
+	<div>
+		<input type="radio" value="c" name="cc" onchange="check(this, 'a')" />
+		c. <code>Hello there</code>
+	</div>
+	<div>
+		<input type="radio" value="d" name="cc" onchange="check(this, 'a')" />
+		d. <code>Hello therehiHey</code>
+	</div>
+</form>
+
+<h3>2. Which of the following code will compile?</h3>
+
+<form>
+	<div>
+		<input type="radio" value="a" name="cc" onchange="check(this, 'c')" />
+		a. <code>Syste  m.out  .print  ln("Hi");</code>
+	</div>
+	<div>
+		<input type="radio" value="b" name="cc" onchange="check(this, 'c')" />
+		b. <code>system.out.print("hello");</code>
+	</div>
+	<div>
+		<input type="radio" value="c" name="cc" onchange="check(this, 'c')" />
+		c. <code>System . out . println ( " " ) ;</code>
+	</div>
+	<div>
+		<input type="radio" value="d" name="cc" onchange="check(this, 'c')" />
+		d. <code>System.out  .print(  hey  );</code>
+	</div>
+</form>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Alan Bi</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

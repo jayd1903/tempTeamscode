@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/ios/">
+                  <div class="lesson-sidebar-title">
+                    iOS with Swift
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      <a href="/learn/ios/#1"><div class="lesson-sidebar-header">
+                        The Swift Programming Language
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/ios/getting-started-with-ios-1/">
+  <div class="lesson-sidebar-item">
+    Getting Started with iOS
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ios/optionals-and-operators-in-swift-2/">
+  <div class="lesson-sidebar-item">
+    Optionals and Operators in Swift
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ios/comparison-operators-and-conditionals-in-swift-3/">
+  <div class="lesson-sidebar-item">
+    Comparison operators and Conditionals in Swift
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/ios/more-about-optionals-in-swift-4/">
+  <div class="lesson-sidebar-item">
+    More about Optionals in Swift
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                More about Optionals in Swift
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>This lesson is about optional binding, unwrapping an optional, and the ternary operator in Swift.</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<h3>else-if statements</h3>
+<p>With the skills you have learned right now, here’s how you will write a program that assigns a student’s grade. Let <code>percent</code> be the percentage a student has in a class and <code>grade</code> be the grade you give him or her. Grades will be assigned following this pattern:(90%+)=A,(80%+)=B,(70%+)=C,(0%+)=F(for the sake of simplicity). Here is what you might write:</p>
+<pre>   <code>if percent &gt; 90{</code></pre>
+<pre>        <code>grade=”A”</code></pre>
+<pre>   <code>}</code></pre>
+<pre>   <code>if percent &gt; 80{</code></pre>
+<pre>        <code>grade=”B”</code></pre>
+<pre>    <code>}</code></pre>
+<pre>   <code>if percent &gt; 70{</code></pre>
+<pre>        <code>grade=”C”</code></pre>
+<pre>    <code>}</code></pre>
+<pre>   <code>if percent &gt; 0{</code></pre>
+<pre>        <code>grade=”F”</code></pre>
+<pre>    <code>}</code></pre>
+
+<p>You might do something different but this code, in general, illustrates the mistake you would make. If you go through the code with random values you might find that by the end of running the program, the student’s grade is always an “F”. That’s certainly not what we wanted. A fact I hid from you is that when you put multiple <code>if</code> statements one after the other, they magically don’t become related. Looking at all the <code>if</code> statements separately, this happens because in the place where we make a student get an F, we ask if their percentage is over 0%. If they have 92% in the class, of course they have over 0% in the class. The same applies if they deserved a B or a C. There are two way to deal with this problem: add multiple conditions to one <code>if</code> statement or relate the <code>if</code> statements. What I mean by “relate the <code>if</code> statements” is that we need to combine the <code>if</code> statements in a way that checks if a percentage is over 90(an A) and if it’s not(we know it’s not an A), check if it’s over 80(a B) and if it’s not(we know it’s not an A or a B), check if it’s over 70(a C) and if it’s not(we know that it is not an A or a B or a C), we come to the conclusion that it’s an F.</p>
+
+<p><code>else if</code> statements let us do that. Here is what I described in the previous paragraph in the form of Swift code:</p>
+<pre>   <code>if percent &gt; 90{</code></pre>
+<pre>        <code>grade=”A”</code></pre>
+<pre>   <code>}</code></pre>
+<pre>   <code>else if percent &gt; 80{</code></pre>
+<pre>        <code>grade=”B”</code></pre>
+<pre>    <code>}</code></pre>
+<pre>   <code>else if percent &gt; 70{</code></pre>
+<pre>        <code>grade=”C”</code></pre>
+<pre>    <code>}</code></pre>
+<pre>   <code>else{</code></pre>
+<pre>        <code>grade=”F”</code></pre>
+<pre>    <code>}</code></pre>
+
+<p>Now, all of those <code>else if</code> statements are related and work together. If any of conditions is true, the compiler doesn’t bother checking conditions that are written below it. The <code>else</code> keyword is differently used in the case when it is used with <code>else if</code>. When use that way, the code under it is run only when the condition in the last <code>else if</code> is not satisfied. The last <code>else if</code> is not true only if the <code>else if</code> above it is not true and so on. So we can say that, the block of code(lines of code enclosed in curly braces) under the <code>else</code> keyword is run only when none of the conditions in the list of <code>else if</code> and <code>if</code> statements is not satisfied.</p>
+
+<h3>The Ternary operator</h3>
+<p>The ternary operator is a way of shrinking a particular <code>if-else</code> statement to one line. The <code>if-else</code> that was shrunk is one that only assigns a value to the same variable in both the <code>if</code> block and the <code>else</code> block like shown below:</p>
+
+<pre>   <code>var b = 100</code></pre>
+<pre>   <code>if b &lt; 90{</code></pre>
+<pre>        <code>b=10</code></pre>
+<pre>   <code>}</code></pre>
+<pre>   <code>else{</code></pre>
+<pre>        <code>b=40</code></pre>
+<pre>   <code>}</code></pre>
+
+<p>If the value of <code>b</code> is less than 90, <code>b</code> becomes 10 else it becomes 40. The ternary operator can do the same with this line of code:</p>
+
+<pre>   <code>b = (b &lt; 90) ? 10 : 40</code></pre>
+
+<p>That is the only thing the ternary operator does. It assigns values based on a boolean condition.</p>
+
+<p>Now let’s get back to optionals.</p>
+<h3>Optional Binding</h3>
+<p>Optional Binding is a kind of <code>if</code> statement that is used to check if an optional variable contains a value or just contains <code>nil</code>. If the optional variable contains a value, then the block of code in the if statement will run. Otherwise, the whole <code>if</code> statement is skipped over by the compiler.Here is the syntax for an optional binding statement:</p>
+
+<pre>   <code>if let b = a{</code></pre>
+<pre>        <code>print(b)</code></pre>
+<pre>   <code>}</code></pre>
+
+<p>In the above code, variable <code>a</code> is the optional we want to check for emptiness. If <code>a</code> does have a value that is not <code>nil</code>, then the value of <code>a</code> is copied over to variable <code>b</code>. <code>b</code> exists only within the optional binding statement(so you don’t have to be super stressed about what you want to name it). Then, the value of <code>b</code>(which is the value of <code>a</code>) is printed on the console. Again, if <code>a</code> has a value of <code>nil</code>, the whole optional binding statement will be skipped over by the compiler.</p>
+<h3>Forced Unwrapping</h3>
+<p>Unlike regular variables, optionals have to be unwraped like a gift box so that you can look inside them. To use the value of an optional in your code, you NEED to unwrap it. Sometimes, we don’t know whether an optional has a value or not. But sometimes, we are absolutely sure that it does. Only when we are sure, we should unwrap it. If you unwrap it when it has a value of <code>nil</code>, you will get a <code>Fatal error</code> and your program will terminate midway. To unwrap an optional variable, all you have to do is add a <code>!</code> to the end of the name of the optional whenever you want to use the value it holds.</p>
+
+<pre>   <code>var num:Int? = 2000</code></pre>
+<pre>   <code>var sum = num! + 18</code></pre>
+
+<p>The result of that code is <code>sum</code>=2018!</p>
+<h3>Implicitly unwrapped optionals</h3>
+<p>If you know when you are initializing the optional that it is never going to have a value of <code>nil</code>, then you can declare the variable as an implicitly unwrapped optional. This is how you do it:</p>
+
+<pre>   <code>var hello:String!="Hello"</code></pre>
+
+<p>All you had to do was replace the <code>?</code>(used for regular optionals) with <code>!</code>.</p>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Valliappan Valliappan</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

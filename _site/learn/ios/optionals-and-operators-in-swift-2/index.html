@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/ios/">
+                  <div class="lesson-sidebar-title">
+                    iOS with Swift
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                      <a href="/learn/ios/#1"><div class="lesson-sidebar-header">
+                        The Swift Programming Language
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/ios/getting-started-with-ios-1/">
+  <div class="lesson-sidebar-item">
+    Getting Started with iOS
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/ios/optionals-and-operators-in-swift-2/">
+  <div class="lesson-sidebar-item">
+    Optionals and Operators in Swift
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ios/comparison-operators-and-conditionals-in-swift-3/">
+  <div class="lesson-sidebar-item">
+    Comparison operators and Conditionals in Swift
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/ios/more-about-optionals-in-swift-4/">
+  <div class="lesson-sidebar-item">
+    More about Optionals in Swift
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Optionals and Operators in Swift
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>This lesson is about arithmetic operators and optionals in Swift.</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<h3>Setting up Xcode to experiment with Swift</h3>
+<p>Xcode has a feature called “playground” for experimenting with Swift quickly. Here’s how you create a playground:
+Open Xcode -&gt; File -&gt; New -&gt; Playground.
+After that, in the window that opens, select the “iOS tab” and select “Blank”. Now, name the playground whatever you want, and save it wherever you want.
+You are now ready to start coding in Swift!</p>
+<h3>Optionals</h3>
+<p>You declare a variable optional when you know that there is a possibility for it to have no value. You can declare a variable as optional only when you are declaring what type it is. And you can declare the type only when you create a variable. 
+There is a very small difference between creating a variable that is not optional and creating one that is optional:</p>
+
+<pre>   <code>var numberOfBones:Int=216 //This variable is not optional</code></pre>
+
+<pre>   <code>var numberOfBonesOptional:Int? //This variable is an optional</code></pre>
+
+<p>As you can see, the only difference is the change from <code>Int</code> to <code>Int?</code>. That change makes a variable of type <code>Int</code> that can either hold a value or not hold a value. Notice that because <code>numberOfBonesOptional</code> is an optional <code>Int</code> variable, we did not have to set it equal to a value.
+To create optional variables of other types, just add a <code>?</code> to the end of the type name when you are creating a variable.</p>
+
+<h3>The <code>nil</code> keyword</h3>
+<p>If an optional variable is not assigned a value, it is in the state of having no value. But what do you do when you want an optional to store no value after storing a value. The <code>nil</code> keyword in Swift is used exactly for this. It takes a variable to a state of having no value. You take an optional variable and set it equal to <code>nil</code> and that’s it!</p>
+
+<pre>   <code>numberOfBonesOptional=nil</code></pre>
+
+<p>This is not the only use for the <code>nil</code> keyword. It is used just like a value of a variable(like 29 for an <code>Int</code>). The only difference is that it can be assigned to variables of all types and has a value of “nothing”.</p>
+
+<h4>A new skill</h4>
+<p>To explain the next part of this lesson we are going to have to learn a new skill that we won’t fully understand. I promise that I will come back and explain it in detail when we are ready for it. The skill is displaying the value of a variable on the screen. It’s often called printing a variable on the screen. 
+You can print using just this one line of code:</p>
+
+<pre>   <code>print(name)</code></pre>
+
+<p>Replace name with the name of the variable you want to print.Remember, every part of that line of code is necessary.</p>
+<h4>Applying the skill</h4>
+<p>Let’s create an <code>Int?</code> variable called <code>hello</code>:</p>
+
+<pre>   <code>var hello:Int?</code></pre>
+
+<p>We haven’t assigned any value to the variable <code>hello</code>. So, it’s value right now, is <code>nil</code>. Let’s print the value of <code>hello</code> and find out if we are right!</p>
+
+<pre>   <code>print(hello)</code></pre>
+
+<p>In the area where what we print appears in Xcode, we get a result that displays <code>nil</code>. We were RIGHT!
+Let’s assign a value to <code>hello</code> and check if that value is displayed to us.</p>
+
+<pre>   <code>hello=3421 //Assigned 3421 to hello</code></pre>
+
+<pre>   <code>print(hello)</code></pre>
+
+<p>The result of running that code is 3421 being displayed on Xcode. Remember the concept of optionals! They are extremely helpful in Swift and in iOS. Now, we will be switching over to a completely different topic.</p>
+
+<h3>Arithmetic operators</h3>
+<p>Arithmetic operators are operators like <code>+</code> and <code>-</code> that you can use to carry out mathematical operations. The vocab bar below gives all the arithmetic operators in Swift along with their functions:</p>
+<table>
+<tr>
+<th colspan="2">Vocab Bar</th>
+</tr>
+<tr>
+<td>+</td>
+<td>Adds two numbers.</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Subtracts two numbers.</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplies two numbers.</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Divides two numbers and gives the quotient.</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Divides two numbers and gives the remainder.</td>
+</tr>
+</table>
+<p>Examples of how to use the operators mentioned above:</p>
+
+<pre>   <code>var i:Int?</code></pre>
+
+<p>Addition:</p>
+
+<pre>   <code>i=2+1 //Makes i=3</code></pre>
+
+<p>Subtraction:</p>
+
+<pre>   <code>i=2934-2 //Makes i=2932</code></pre>
+
+<p>Multiplication:</p>
+
+<pre>   <code>i=2*25 //Makes i=50</code></pre>
+
+<p>Division giving quotient:</p>
+
+<pre>   <code>i=1000/2 //Makes i=500</code></pre>
+
+<p>Division giving remainder:</p>
+
+<pre>   <code>i=5%3 //Makes i=2</code></pre>
+
+<h4>Unary operators</h4>
+<p>Unary operators are the unary <code>+</code> and the unary . When you add a unary <code>+</code> in the beginning of a number or variable, it is like multiplying its value by plus 1. If you add a unary <code>-</code>, that’s like multiplying the value of the variable or the number by negative one.</p>
+
+<pre>   <code>var a = +hello //Makes a=hello</code></pre>
+
+<pre>   <code>var b = -hello //Makes b=hello*-1</code></pre>
+
+<h3>Compound assignment operators</h3>
+
+<pre>   <code>var count:Int=19</code></pre>
+
+<p>If <code>count</code> is occasionally incremented by 1, then that means that we need the current value of count to calculate its next value. We could store it in another variable called <code>backup</code> and then we could say:</p>
+
+<pre>   <code>count=backup+1</code></pre>
+
+<p>when we want to update the value of count. But that takes way too much effort.
+So Swift has a shortcut for this. We can just say:</p>
+
+<pre>   <code>count=count+1</code></pre>
+
+<p>That was easy!
+But programmers wanted it to be easier because it feels unnecessary to type <code>count</code> twice.
+That statement was shortened to:</p>
+
+<pre>   <code>count+=1</code></pre>
+
+<p>This gives the same result as <code>count=count+1</code>.
+This is not just true for the addition operation but for other operations too.</p>
+
+<pre>   <code>count*=2 //Means count=count*2</code></pre>
+
+<pre>   <code>count/=2 //Means count=count/2</code></pre>
+
+<pre>   <code>count-=2 //Means count=count-2</code></pre>
+
+<pre>   <code>count%=2 //Means count=the remainder when count is divided by 2</code></pre>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Valliappan Valliappan</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

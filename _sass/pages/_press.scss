@@ -1,0 +1,136 @@
+.press-page {
+  .page-header {
+    background: $press-content-header-bkg;
+    color: $press-content-header-fnt-color;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    
+  }
+
+  #column-articles {
+    width: 45%;
+  }
+
+  #column-image {
+    width: 55%;
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Verdana';
+    margin-bottom:20px;
+  }
+
+  .heading-link {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Verdana';
+    margin-bottom:20px;
+    color: #5176E0;
+  }
+
+  .heading-link:hover {
+    color: #2048D8;
+  }
+
+  .press-large-image {
+      float:right;
+      height:250px;
+      margin-bottom: 75px;
+  }
+
+  .press-item {
+    margin-bottom: 40px;
+
+    > a {
+      color: inherit;
+      display: block;
+
+       > * {
+        vertical-align: top;
+      }
+
+      > div {
+
+        overflow: auto;
+
+        .press-item-image {
+          
+          float: left;
+          margin-right:10px;
+
+          img {
+
+            height: 100px;
+            width: 100px;
+
+          }
+          
+
+        }
+        
+        .press-item-title {
+          clear: right;
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        .press-item-source {
+          clear: right;
+          color: #777;
+          margin-bottom: 5px;
+        }
+
+        .press-item-date {
+          clear: right;
+          color: #777;
+        }
+      }
+
+      &:hover {
+        .press-item-title {
+          color: $blue-a200;
+        }
+      }
+    }
+  }
+
+  .press-branding {
+    
+    .press-branding-header {
+      margin-bottom: 20px;
+    }
+
+    .press-branding-image {
+      display: inline-block;
+      vertical-align: top;
+
+      img {
+        
+        margin-bottom: 10px;
+      }
+
+      div {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .press-branding-image + .press-branding-image {
+      margin-left: 20px;
+    }
+  }
+}

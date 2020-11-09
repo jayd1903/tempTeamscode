@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+
+    <style type="text/css"> 
+      .bgimg {  
+          background-image: url({{ page.background }}); 
+          {% if page.bg_height %} height: {{page.bg_height}};background-size: contain; margin-left: auto; margin-right: auto;{% endif %}
+      } 
+    </style> 
+
+    <div class="post-contest-layout">
+      {% include header.html
+         logo="dark_logo.svg" %}
+      {% include scripts.html %}
+      <div class="content">
+        <div class="post-contest-header {% if page.background %}bgimg{% endif %}">
+          <div class="post-contest-max-width">
+            <div class="post-contest-header-section">
+              <div class="h1">
+                {{ page.contest_title }}
+              </div>
+              <div class="post-contest-header-section-info">
+                <div id="cohost">{% if page.contest_cohost %} Co-Host:  {{ page.contest_cohost }}{% endif %}</div>
+                {% if page.contest_location %}
+                <div><b><a href=" {{ page.contest_location_link }} ">{{ page.contest_location }} (Get Directions) →</a></b></div>
+                {% endif %}
+                <div>{{ page.contest_date }}</div>
+                {% if page.contest_size %} 
+                  <div>{{ page.contest_size }} students</div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-contest-body">
+        <div class="post-contest-max-width">
+          {% if page.contest_sponsors %} 
+          
+          {% endif %}
+          {{ content }}
+        </div>
+      </div>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

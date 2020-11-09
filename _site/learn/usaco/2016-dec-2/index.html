@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/usaco/">
+                  <div class="lesson-sidebar-title">
+                    USACO Problems
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                      <a href="/learn/usaco/#2"><div class="lesson-sidebar-header">
+                        2016-2017 Usaco Platinum Contest
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-dec-1/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 1 | Lots of Triangles
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/usaco/2016-dec-2/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 2 | Team Building
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2017-feb-1/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 1 | Why Did the Cow Cross the Road
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2017-feb-2/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 2 | Why Did the Cow Cross the Road II
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2017-jan-1/">
+  <div class="lesson-sidebar-item">
+    Jan, Problem 1 | Promotion Counting
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Dec, Problem 2 | Team Building
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>A writeup of Dec number 2 from the USACO platinum problem set</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<h3 id="team-building"><a href="http://usaco.org/index.php?page=viewproblem2&amp;cpid=673">Team Building</a></h3>
+
+<h4 id="problem-statement">Problem Statement</h4>
+<blockquote>
+  <p>Every year, Farmer John brings his N cows to compete for “best in show” at the state fair. His arch-rival, Farmer Paul, brings his M cows to compete as well (1≤N≤1000,1≤M≤1000).
+Each of the N+M cows at the event receive an individual integer score. However, the final competition this year will be determined based on teams of K cows (1≤K≤10), as follows: Farmer John and Farmer Paul both select teams of K of their respective cows to compete. The cows on these two teams are then paired off: the highest-scoring cow on FJ’s team is paired with the highest-scoring cow on FP’s team, the second-highest-scoring cow on FJ’s team is paired with the second-highest-scoring cow on FP’s team, and so on. FJ wins if in each of these pairs, his cow has the higher score.
+Please help FJ count the number of different ways he and FP can choose their teams such that FJ will win the contest. That is, each distinct pair (set of K cows for FJ, set of K cows for FP) where FJ wins should be counted. Print your answer modulo 1,000,000,009.</p>
+  <h4 id="observations">Observations</h4>
+  <p>This is a fairly trivial DP. Let <code class="highlighter-rouge">DP[n][m][k]</code> be the number of ways to pair off k cows, using up to n of John’s cows and m of Paul’s cows.</p>
+</blockquote>
+
+<p>Observe <code class="highlighter-rouge">DP[n][m][k]</code> is equal to the summation of all <code class="highlighter-rouge">DP[i][j][k-1]</code> for <code class="highlighter-rouge">0 &lt;= i &lt; n</code> and <code class="highlighter-rouge">0 &lt;= j &lt; m</code>. For <strong>O(1)</strong> computation of this value, we can use lookup tables. Specifically, <code class="highlighter-rouge">lp[i][j] = lp[i-1][j] + lp[i][j-1] - lp[i-1][j-1] + DP[i][j]</code>.</p>
+
+<p>My solution can be found <a href="https://github.com/chen-robert/writeups/blob/master/data/docs/usaco/2016/code/team.java">here</a></p>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Robert Chen</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>

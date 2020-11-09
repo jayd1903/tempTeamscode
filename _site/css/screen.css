@@ -1,0 +1,1459 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+html {
+  line-height: normal; }
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #444;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.h1 {
+  font-size: 50px;
+  font-family: 'Verdana';
+  line-height: 1.4; }
+
+.h2 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Verdana'; }
+
+.h3 {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: 'Verdana'; }
+
+.h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: 'Verdana'; }
+
+.p {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 700px;
+  font-family: 'Verdana'; }
+
+.a {
+  color: #448AFF;
+  border-bottom: 1px dotted #448AFF;
+  padding-bottom: 1px; }
+  .a:hover {
+    border-color: #2962FF;
+    color: #2962FF; }
+
+.post-contest-body h1,
+.post-lesson-body h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 20px 0 20px 0; }
+.post-contest-body h2,
+.post-lesson-body h2 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 40px 0 20px 0; }
+.post-contest-body h3,
+.post-lesson-body h3 {
+  font-size: 17px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  font-weight: 400; }
+.post-contest-body p,
+.post-lesson-body p {
+  font-size: 15px;
+  line-height: 32px;
+  margin-bottom: 20px; }
+.post-contest-body ul li,
+.post-contest-body ol li,
+.post-lesson-body ul li,
+.post-lesson-body ol li {
+  font-size: 15px;
+  margin: 0 0 20px 0; }
+.post-contest-body a,
+.post-lesson-body a {
+  color: #448AFF;
+  border-bottom: 1px dotted #448AFF;
+  padding-bottom: 1px; }
+  .post-contest-body a:hover,
+  .post-lesson-body a:hover {
+    border-color: #2962FF;
+    color: #2962FF; }
+
+.site-max-width {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative; }
+
+.blog-max-width {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative; }
+
+.widget-max-width {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative; }
+
+.post-contest-max-width {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.post-blog-max-width {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.post-lesson-max-width {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+.hr-small {
+  width: 40px;
+  border-top: 1px solid #ccc;
+  display: block; }
+
+.align-right {
+  text-align: right; }
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: #F7F7F7 !important;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #F0F0F0;
+  box-shadow: 0px 0px 7px grey;
+  opacity: 0.96;
+  z-index: 999999;
+  height: 64px;
+  line-height: 64px;
+  min-width: 650px; }
+  .header .header-logo {
+    line-height: 64px; }
+    .header .header-logo a {
+      font-weight: 800;
+      font-size: 22px;
+      display: block; }
+      .header .header-logo a img {
+        vertical-align: middle; }
+  .header a {
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease; }
+    .header a:hover {
+      opacity: 0.5;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50); }
+  .header .header-menu {
+    float: right;
+    font-family: Verdana;
+    color: #444444; }
+    .header .header-menu .header-menu-item {
+      font-size: 14px;
+      line-height: 64px; }
+    .header .header-menu .header-menu-item + .header-menu-item {
+      margin-left: 40px; }
+  .header .header-logo,
+  .header .header-menu,
+  .header .header-menu-item {
+    display: inline-block;
+    vertical-align: top; }
+  .header a {
+    color: inherit;
+    text-decoration: none; }
+
+.footer {
+  background: #eee;
+  color: #777;
+  padding: 40px 0; }
+  .footer .site-max-width > div {
+    display: inline-block;
+    vertical-align: top; }
+  .footer .footer-copyright {
+    color: #999;
+    margin-top: 5px; }
+  .footer .footer-social-menu {
+    float: right;
+    margin-top: 5px; }
+    .footer .footer-social-menu div {
+      display: inline-block;
+      vertical-align: top; }
+      .footer .footer-social-menu div a {
+        color: inherit;
+        transition: color 0.4s ease; }
+        .footer .footer-social-menu div a i {
+          font-size: 20px; }
+        .footer .footer-social-menu div a:hover {
+          color: #300000; }
+    .footer .footer-social-menu div + div {
+      margin-left: 40px; }
+
+.default-layout .header {
+  background: transparent;
+  color: #444; }
+
+a {
+  border: none !important; }
+
+body {
+  min-width: 650px;
+  /* suppose you want minimun width of 1000px */
+  width: auto !important;
+  /* Firefox will set width as auto */
+  width: 650px;
+  /* As IE ignores !important it will set width as 1000px; */ }
+
+.post-contest-layout .header {
+  background: transparent;
+  color: #fff; }
+
+.post-contest-header {
+  background: linear-gradient(180deg, #101010, #444444);
+  padding: 164px 0 40px 0;
+  box-shadow: 0px 0px 10px grey;
+  margin-top: -64px; }
+  .post-contest-header .post-contest-header-section {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; }
+    .post-contest-header .post-contest-header-section .h1 {
+      margin-bottom: 20px; }
+    .post-contest-header .post-contest-header-section .post-contest-header-section-info div {
+      margin-bottom: 5px; }
+    .post-contest-header .post-contest-header-section .post-contest-header-section-info #cohost {
+      font-style: italic; }
+
+.post-contest-body {
+  padding: 0 0 40px 0; }
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  /* Red */
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s; }
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black; }
+
+.post-lesson-layout .header {
+  background: transparent;
+  color: #fff; }
+
+.post-lesson-header {
+  padding: 164px 0 40px 0;
+  margin-top: -64px; }
+  .post-lesson-header .post-lesson-header-section {
+    color: #444;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; }
+    .post-lesson-header .post-lesson-header-section .h1 {
+      margin-bottom: 10px; }
+    .post-lesson-header .post-lesson-header-section .post-lesson-header-section-info div {
+      font-size: 17px; }
+
+.post-lesson-body {
+  padding: 0 0 40px 0; }
+
+.lesson-sidebar-item {
+  color: #444;
+  margin-bottom: 12px;
+  font-size: 15px; }
+
+.lesson-sidebar-header {
+  color: #5176E0;
+  margin-bottom: 12px;
+  font-size: 17px;
+  margin-left: -10px; }
+
+.lesson-sidebar-title {
+  color: #5176E0;
+  margin-bottom: 12px;
+  font-size: 20px;
+  margin-left: -20px; }
+
+.lesson-sidebar-item:hover {
+  color: #2048D8;
+  cursor: pointer; }
+
+.lesson-sidebar-title:hover {
+  color: #2048D8;
+  cursor: pointer; }
+
+.lesson-sidebar-header:hover {
+  color: #2048D8;
+  cursor: pointer; }
+
+.current-lesson .lesson-sidebar-item {
+  color: #5176E0;
+  border-bottom: solid;
+  border-width: 1px;
+  display: inline-block; }
+
+.sticky-l {
+  position: fixed !important;
+  top: 75px; }
+
+.near-bottom-l {
+  position: absolute;
+  bottom: 10px; }
+
+br {
+  display: block;
+  /* makes it have a width */
+  content: "";
+  /* clears default height */
+  margin-top: 20px;
+  /* change this to whatever height you want it */ }
+
+code {
+  font-family: Inconsolata; }
+
+table, th, td {
+  border: 2px solid #5176E0;
+  border-collapse: collapse;
+  font-weight: bold;
+  padding: 6px; }
+
+th {
+  color: white;
+  background-color: #5176E0; }
+
+table {
+  text-align: center;
+  width: 100%; }
+
+form div {
+  padding: 10px;
+  margin: 1px; }
+
+.post-blog-header {
+  background: #fff;
+  padding: 164px 0 40px 0;
+  margin-top: -64px; }
+  .post-blog-header .post-blog-header-section {
+    color: #444;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; }
+    .post-blog-header .post-blog-header-section .h1 {
+      margin-bottom: 20px; }
+    .post-blog-header .post-blog-header-section .post-blog-header-section-info div {
+      margin-bottom: 5px; }
+  .post-blog-header .post-blog-header-date {
+    font-style: italic;
+    margin-top: 20px; }
+  .post-blog-header .post-blog-header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 25px;
+    margin-bottom: 5px; }
+  .post-blog-header .post-blog-header-img-source {
+    font-style: italic;
+    text-align: center; }
+    .post-blog-header .post-blog-header-img-source a {
+      color: #448AFF; }
+    .post-blog-header .post-blog-header-img-source a:hover {
+      color: #2048D8; }
+
+.post-blog-body {
+  padding: 0 0 40px 0; }
+
+.page-layout .header {
+  background: transparent;
+  color: #fff; }
+
+.page-header .site-max-width > div {
+  margin-bottom: 20px; }
+
+.page-content {
+  padding-top: 40px; }
+  .page-content .site-max-width > div {
+    margin-bottom: 40px; }
+
+.about-page .page-header {
+  background: url("/assets/about_images/about_team_header_image.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  padding: 80px 0 35px 0;
+  color: white; }
+.about-page .about-heading {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline; }
+.about-page #top-about-heading {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline; }
+.about-page .about-heading-description {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-style: italic; }
+.about-page .about-team {
+  margin-bottom: 40px; }
+  .about-page .about-team > div {
+    display: inline-block;
+    vertical-align: top; }
+  .about-page .about-team .about-team-image {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    background-clip: padding-box;
+    background: #eee;
+    height: 180px;
+    width: 180px; }
+    .about-page .about-team .about-team-image img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%; }
+  .about-page .about-team .about-team-info {
+    margin-left: 40px; }
+    .about-page .about-team .about-team-info .about-team-info-header {
+      font-weight: 400;
+      font-size: 20px;
+      margin-bottom: 15px; }
+    .about-page .about-team .about-team-info .about-team-info-title {
+      font-weight: 50;
+      font-style: italic;
+      font-size: 15px;
+      margin-bottom: 15px; }
+
+.about-content-a {
+  background: url("/assets/contest_images/index_photo_dark.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  margin-top: -40px; }
+  .about-content-a .site-max-width {
+    height: 500px; }
+
+.contact-page .page-header {
+  background: #7C4DFF;
+  color: #fff; }
+.contact-page .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+.contact-page .column {
+  float: left;
+  width: 50%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Verdana'; }
+.contact-page .contact-input-section {
+  margin: 80px 0 40px 0;
+  max-width: 400px;
+  position: relative; }
+  .contact-page .contact-input-section label {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    margin-top: -40px;
+    width: 100%;
+    padding-bottom: 20px; }
+  .contact-page .contact-input-section input[type=text],
+  .contact-page .contact-input-section textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    max-width: 400px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 100%;
+    resize: none; }
+    .contact-page .contact-input-section input[type=text]:focus,
+    .contact-page .contact-input-section textarea:focus {
+      border-color: #448AFF;
+      outline: none; }
+    .contact-page .contact-input-section input[type=text]:focus + label,
+    .contact-page .contact-input-section textarea:focus + label {
+      color: #448AFF; }
+  .contact-page .contact-input-section textarea {
+    height: 200px; }
+.contact-page .contact-submit-section {
+  margin: 40px 0;
+  max-width: 400px; }
+  .contact-page .contact-submit-section input[type=submit] {
+    border: none;
+    background: #448AFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-clip: padding-box;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 20px; }
+    .contact-page .contact-submit-section input[type=submit]:focus {
+      outline: none; }
+
+.competitions-page .page-header {
+  background: #448AFF;
+  color: #fff; }
+
+.contest-image {
+  background: url("/assets/contest_collage/contest_collage.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 40px;
+  height: 450px; }
+
+.contests-header-section-button {
+  background-color: #5176DE;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px; }
+  .contests-header-section-button:hover {
+    background-color: #4363b9; }
+  .contests-header-section-button:focus {
+    outline: none; }
+
+.index-competitions-section-list-item {
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  width: 280px;
+  overflow: hidden;
+  background: #f8f8fa;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .index-competitions-section-list-item a {
+    color: inherit;
+    text-decoration: none; }
+  .index-competitions-section-list-item .list-item-img {
+    width: 280px;
+    height: 160px;
+    background: white; }
+    .index-competitions-section-list-item .list-item-img img {
+      height: 100%; }
+  .index-competitions-section-list-item .list-item-info {
+    padding: 10px; }
+    .index-competitions-section-list-item .list-item-info .list-item-affiliation {
+      font-weight: bold;
+      color: #2962ff;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    .index-competitions-section-list-item .list-item-info .list-item-title {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+    .index-competitions-section-list-item .list-item-info .list-item-location {
+      font-weight: bold;
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    .index-competitions-section-list-item .list-item-info .list-item-cohost {
+      font-style: italic;
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    .index-competitions-section-list-item .list-item-info .list-item-date {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    .index-competitions-section-list-item .list-item-info .list-item-size {
+      color: #777;
+      font-size: 14px; }
+  .index-competitions-section-list-item:hover {
+    -webkit-box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2); }
+
+.index-header {
+  background: url("/assets/contest_images/index_photo_dark.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100px 0 120px 0; }
+  .index-header .index-header-section {
+    width: 70%;
+    margin: auto;
+    display: block;
+    color: #444;
+    vertical-align: top;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    line-height: 1.4; }
+    .index-header .index-header-section .index-header-section-h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .index-header .index-header-section .index-header-section-h1-sub {
+      font-size: 19px;
+      margin-bottom: 50px; }
+    .index-header .index-header-section .index-header-section-button {
+      background-color: #265B89;
+      border: white 1px solid;
+      color: white;
+      padding: 15px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Verdana;
+      font-weight: bold;
+      margin-right: 5px;
+      margin-left: 5px;
+      cursor: pointer; }
+      .index-header .index-header-section .index-header-section-button:hover {
+        background-color: #1e346b; }
+      .index-header .index-header-section .index-header-section-button:focus {
+        outline: none; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.column {
+  float: left;
+  width: 50%; }
+
+.programming-practice-column {
+  padding: 20px 0;
+  float: left;
+  text-align: center;
+  width: 33%;
+  border-top: 1px solid #F0F0F0; }
+
+.problem-header {
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Verdana';
+  font-weight: bold; }
+
+.problem-item {
+  padding: 10px 0;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  margin: auto;
+  width: 70%;
+  background-color: #f8f8fa;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .problem-item:hover {
+    background-color: #eeeeee;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15); }
+  .problem-item > a {
+    padding: 20px 0; }
+  .problem-item .problem-item-title {
+    font-size: 14px;
+    font-family: 'Verdana'; }
+  .problem-item .problem-item-techniques {
+    margin-top: 1px;
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Verdana'; }
+
+.apply-widget {
+  font-family: "Verdana";
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: -10px;
+  margin-bottom: 40px; }
+
+.widget {
+  padding: 40px 0; }
+  .widget .widget-header {
+    font-family: "Verdana";
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px; }
+  .widget .widget-body {
+    font-family: "Georgia";
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px; }
+  .widget .widget-photo img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%; }
+
+.index-competitions {
+  padding: 40px 0; }
+  .index-competitions .index-competitions-section-header {
+    margin-bottom: 40px; }
+  .index-competitions .index-competitions-section-list .index-competitions-section-list-item {
+    width: 320px;
+    overflow: hidden; }
+    .index-competitions .index-competitions-section-list .index-competitions-section-list-item a {
+      color: inherit;
+      text-decoration: none; }
+    .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-img {
+      background: #eee;
+      width: 320px;
+      height: 160px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-img img {
+        height: 100%; }
+    .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info {
+      padding: 20px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info .list-item-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info .list-item-cohost {
+        font-weight: bold;
+        color: #626262;
+        font-size: 14px;
+        margin-bottom: 5px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info .list-item-date {
+        color: #777;
+        font-size: 16px;
+        margin-bottom: 3px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info .list-item-location {
+        color: #777;
+        font-size: 16px;
+        margin-bottom: 3px; }
+      .index-competitions .index-competitions-section-list .index-competitions-section-list-item .list-item-info .list-item-size {
+        color: #777;
+        font-size: 16px; }
+
+.press-page .page-header {
+  background: #00C853;
+  color: #fff; }
+.press-page .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+.press-page .column {
+  float: left; }
+.press-page #column-articles {
+  width: 45%; }
+.press-page #column-image {
+  width: 55%; }
+.press-page .heading {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Verdana';
+  margin-bottom: 20px; }
+.press-page .heading-link {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Verdana';
+  margin-bottom: 20px;
+  color: #5176E0; }
+.press-page .heading-link:hover {
+  color: #2048D8; }
+.press-page .press-large-image {
+  float: right;
+  height: 250px;
+  margin-bottom: 75px; }
+.press-page .press-item {
+  margin-bottom: 40px; }
+  .press-page .press-item > a {
+    color: inherit;
+    display: block; }
+    .press-page .press-item > a > * {
+      vertical-align: top; }
+    .press-page .press-item > a > div {
+      overflow: auto; }
+      .press-page .press-item > a > div .press-item-image {
+        float: left;
+        margin-right: 10px; }
+        .press-page .press-item > a > div .press-item-image img {
+          height: 100px;
+          width: 100px; }
+      .press-page .press-item > a > div .press-item-title {
+        clear: right;
+        font-size: 18px;
+        margin-bottom: 10px; }
+      .press-page .press-item > a > div .press-item-source {
+        clear: right;
+        color: #777;
+        margin-bottom: 5px; }
+      .press-page .press-item > a > div .press-item-date {
+        clear: right;
+        color: #777; }
+    .press-page .press-item > a:hover .press-item-title {
+      color: #448AFF; }
+.press-page .press-branding .press-branding-header {
+  margin-bottom: 20px; }
+.press-page .press-branding .press-branding-image {
+  display: inline-block;
+  vertical-align: top; }
+  .press-page .press-branding .press-branding-image img {
+    margin-bottom: 10px; }
+  .press-page .press-branding .press-branding-image div {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .press-page .press-branding .press-branding-image a {
+    font-size: 14px; }
+.press-page .press-branding .press-branding-image + .press-branding-image {
+  margin-left: 20px; }
+
+.blog-header {
+  background: url("/assets/contest_images/blog_photo_dark.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100px 0 120px 0; }
+  .blog-header .blog-header-section {
+    width: 70%;
+    margin: auto;
+    display: block;
+    color: #444;
+    vertical-align: top;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    line-height: 1.4;
+    padding: 0px; }
+    .blog-header .blog-header-section .blog-header-section-h1 {
+      font-size: 52.5px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.6; }
+
+.blog-container {
+  margin-top: 40px; }
+  .blog-container .blog-post-preview {
+    box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.16);
+    transition: box-shadow 135ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 20px;
+    margin: 40px 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-radius: 10px; }
+    .blog-container .blog-post-preview .blog-post-preview-image {
+      border-radius: 10%;
+      width: 35%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .blog-container .blog-post-preview .blog-post-preview-description {
+      margin: 20px 0px;
+      display: flex;
+      margin-left: 5%;
+      width: 60%;
+      flex-direction: column;
+      justify-content: space-between; }
+    .blog-container .blog-post-preview .blog-post-preview-title {
+      font-size: 30px;
+      font-weight: 700; }
+    .blog-container .blog-post-preview .blog-post-preview-subtitle {
+      font-size: 16px;
+      line-height: 1.3; }
+    .blog-container .blog-post-preview .blog-post-preview-footer {
+      font-size: 16px;
+      line-height: 1.3;
+      font-style: italic; }
+      .blog-container .blog-post-preview .blog-post-preview-footer .blog-post-preview-footer-date {
+        color: black; }
+  .blog-container .blog-post-preview:hover {
+    box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.2), 0 2px 8px 4px rgba(60, 64, 67, 0.1);
+    background: #f5f5f5; }
+
+.lessons-page .page-header {
+  background: #3D5AFE;
+  color: #fff; }
+
+.lessons-section-list-item {
+  width: 320px;
+  overflow: hidden; }
+  .lessons-section-list-item a {
+    color: inherit;
+    text-decoration: none; }
+  .lessons-section-list-item .list-item-img {
+    background: #eee;
+    width: 320px;
+    height: 160px; }
+  .lessons-section-list-item .list-item-info {
+    padding: 20px;
+    padding-top: 18px; }
+    .lessons-section-list-item .list-item-info .list-item-title {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+    .lessons-section-list-item .list-item-info .list-item-desc {
+      color: #777;
+      font-size: 16px;
+      margin-bottom: 3px; }
+
+.group-container {
+  margin-bottom: 50px; }
+
+.group-container div:hover {
+  background-color: #f5f5f5; }
+
+.lesson-group {
+  background: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-color: #eeeeee;
+  padding: 40px 0; }
+  .lesson-group .lesson-header {
+    font-family: "Verdana";
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px; }
+  .lesson-group .lesson-body {
+    font-family: "Georgia";
+    font-size: 18px;
+    line-height: 1.6; }
+  .lesson-group .lesson-photo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px; }
+
+.lesson-container {
+  width: 600px !important;
+  height: 60px;
+  border-width: 1px 0px;
+  border-color: #f0f0f0;
+  border-style: solid;
+  margin-bottom: -1px; }
+  .lesson-container div {
+    margin-left: 20px; }
+
+.lesson-container:hover {
+  background-color: #f5f5f5; }
+
+.overview-container {
+  width: 600px !important;
+  height: 125px;
+  border-width: 1px 0px;
+  border-color: #f0f0f0;
+  border-style: solid;
+  margin-bottom: -1px; }
+  .overview-container .header-item-info {
+    padding: 30px 30px; }
+    .overview-container .header-item-info .header-item-title {
+      font-weight: 400;
+      font-size: 24px;
+      color: #5176E0;
+      margin-bottom: 20px; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.column {
+  float: left; }
+
+.right {
+  margin-left: 250px;
+  width: 650px !important; }
+
+.left {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 60px;
+  margin-top: 50px !important;
+  width: 190px !important;
+  border-style: solid;
+  border-width: 0px;
+  border-right-width: 2px;
+  border-right-color: #5176E0;
+  padding-right: 5px; }
+
+.sticky {
+  position: fixed;
+  top: 55px; }
+
+.near-bottom {
+  position: absolute;
+  bottom: 35px; }
+
+.header-sidebar-item {
+  color: #5176E0;
+  margin-bottom: 12px;
+  font-size: 18px; }
+
+.header-sidebar-item:hover {
+  filter: brightness(70%);
+  cursor: pointer; }
+
+.active .header-sidebar-item {
+  filter: brightness(70%); }

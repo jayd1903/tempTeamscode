@@ -1,0 +1,62 @@
+// Palette
+$blue-500: #2196F3;
+$blue-a200: #448AFF;
+$blue-a700: #2962FF;
+$deeppurple-a200: #7C4DFF;
+$indigo-a400: #3D5AFE;
+$purple-a400: #D500F9;
+$green-a700: #00C853;
+$amber-a400: #FFC400;
+$deeporange-a400: #FF3D00;
+
+// Site
+$site-bkg: #fff;
+
+// Header
+$header-bkg-default-layout: transparent;
+$header-fnt-color-default-layout: #444;
+$header-bkg-post-contest-layout: transparent;
+$header-fnt-color-post-contest-layout: #fff;
+$header-bkg-post-lesson-layout: transparent;
+$header-fnt-color-post-lesson-layout: #fff;
+$header-bkg-page-layout: transparent;
+$header-fnt-color-page-layout: #fff;
+
+// Footer
+$footer-bkg: #eee;
+$footer-fnt-color: #777;
+
+// Post contest
+$post-contest-header-bkg: linear-gradient(135deg, #222, #333);
+$post-contest-header-fnt-color: #fff;
+
+// Post blog
+$post-blog-header-bkg: #fff;
+$post-blog-header-fnt-color: #444;
+
+// Post lesson
+$post-lesson-header-bkg: white;//linear-gradient(135deg, #222, #333);
+$post-lesson-header-fnt-color: #444;//#fff;
+
+// Index
+$index-header-fnt-color: #444;
+
+// Competitions
+$competitions-content-header-bkg: $blue-a200;
+$competitions-content-header-fnt-color: #fff;
+
+// Lessons
+$lessons-content-header-bkg: $indigo-a400;
+$lessons-content-header-fnt-color: #fff;
+
+// Publicity
+$press-content-header-bkg: $green-a700;
+$press-content-header-fnt-color: #fff;
+
+// Contact
+$contact-content-header-bkg: $deeppurple-a200;
+$contact-content-header-fnt-color: #fff;
+
+// About
+$about-content-header-bkg: $deeporange-a400;
+$about-content-header-fnt-color: #fff;

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TeamsCode</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Mono:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/dark_logo.png">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+
+  <!-- Sharing link information -->
+  <meta property="og:site_name" content="TeamsCode"/>
+  <meta property="og:description" content="TeamsCode is a student-run 501(c)(3) non-profit that works to encourage high school students to study computer science through team-focused programming contests!"/>
+  <meta property="og:image" content="/assets/images/teamscode_share_graphic.png">
+  <meta property="og:url" content="http://teamscode.com/">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109560289-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109560289-1');
+  </script>
+
+</head>
+
+  <body>
+    <div class="post-lesson-layout">
+      <div class="header">
+  <div class="site-max-width">
+    <div class="header-logo">
+      <a href="/">
+        <img src="/assets/images/dark_logo.svg" height="32" alt="teamscode"/>
+      </a>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-item">
+        <a href="/learn">Learn</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contests">Contests</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/press">Press</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/blog">Blog</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="header-menu-item">
+        <a href="/about">About</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mo-js/0.288.1/mo.min.js"
+  type="text/javascript"></script>
+      <div class="content">
+        
+        <div class="post-lesson-body">
+          <div class="post-lesson-max-width">
+            <div class="row">
+              <div class="column left sticky-l" id="sidebar">
+                <a href="/learn/usaco/">
+                  <div class="lesson-sidebar-title">
+                    USACO Problems
+                  </div>
+                </a>
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      <a href="/learn/usaco/#1"><div class="lesson-sidebar-header">
+                        2015-2016 Usaco Platinum Contest
+                      </div></a>
+                      
+                        <div >
+                        <a href="/learn/usaco/2015-dec-1/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 1 | Max Flow
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2015-dec-2/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 2 | High Card Low Card (Platinum)
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2015-dec-3/">
+  <div class="lesson-sidebar-item">
+    Dec, Problem 3 | Counting Haybales
+  </div>
+</a>
+                        </div>
+                      
+                        <div  class="current-lesson" >
+                        <a href="/learn/usaco/2016-feb-1/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 1 | Load Balancing
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-feb-2/">
+  <div class="lesson-sidebar-item">
+    Feb, Problem 2 | Fenced In
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-jan-1/">
+  <div class="lesson-sidebar-item">
+    Jan, Problem 1 | Fort Moo
+  </div>
+</a>
+                        </div>
+                      
+                        <div >
+                        <a href="/learn/usaco/2016-open-1/">
+  <div class="lesson-sidebar-item">
+    Open, Problem 1 | 262144
+  </div>
+</a>
+                        </div>
+                      
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+                  
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                
+              </div>
+              <div class="column right">
+
+        <div class="post-lesson-header">
+          <div class="post-lesson-max-width">
+            <div class="post-lesson-header-section">
+              <div class="h1">
+                Feb, Problem 1 | Load Balancing
+              </div>
+              <div class="post-lesson-header-section-info">
+                <div><i>A writeup of Feb number 1 from the USACO platinum problem set</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <hr style="background-color: #777; border-width: 0; height: 1px; margin-top: -15px">
+                <script src="/questions.js"></script>
+
+<h3 id="load-balancing"><a href="http://usaco.org/index.php?page=viewproblem2&amp;cpid=624">Load Balancing</a></h3>
+
+<h5 id="problem-statement">Problem Statement</h5>
+<blockquote>
+  <p>Farmer John’s N cows are each standing at distinct locations (x1,y1)…(xn,yn) on his two-dimensional farm (<code class="highlighter-rouge">1≤N≤100,000</code>, and the <code class="highlighter-rouge">xi</code>’s and <code class="highlighter-rouge">yi</code>’s are positive odd integers of size at most 1,000,000). FJ wants to partition his field by building a long (effectively infinite-length) north-south fence with equation <code class="highlighter-rouge">x=a</code> (a will be an even integer, thus ensuring that he does not build the fence through the position of any cow). He also wants to build a long (effectively infinite-length) east-west fence with equation <code class="highlighter-rouge">y=b</code>, where b is an even integer. These two fences cross at the point (a,b), and together they partition his field into four regions.
+FJ wants to choose a and b so that the cows appearing in the four resulting regions are reasonably “balanced”, with no region containing too many cows. Letting M be the maximum number of cows appearing in one of the four regions, FJ wants to make M as small as possible. Please help him determine this smallest possible value for M.</p>
+</blockquote>
+
+<p>In other words, given a set of points, divide them into 4 sections with one horizontal line and one vertical line. Let <strong>M</strong> be the maximum number of cows in the 4 regions. We want to minimize <strong>M</strong>.</p>
+
+<h5 id="observations">Observations</h5>
+<p>Because <code class="highlighter-rouge">(1 &lt;= N &lt;= 1e5)</code>, we probably need an <code class="highlighter-rouge">O(N lg N)</code> algorithm.</p>
+
+<p>If we iterate over all possible vertical lines, this costs <code class="highlighter-rouge">O(N)</code>. We could probably binary search over the two sections in <code class="highlighter-rouge">O(lg N)</code>.</p>
+
+<p>As we iterate over the possible vertical lines in order, we keep running counts of the number of points to the left and right of our line.</p>
+
+<h5 id="solution">Solution</h5>
+<p>Specifically, given two sections <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">R</code>, we want to find the optimal placement of a horizontal line such that <strong>M</strong> is minimized. We can use a BIT to calculate the number of points in <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">R</code> underneath a given horizontal line.</p>
+
+<p>Let <code class="highlighter-rouge">L_top</code> be the number of points above a given horizontal line for section <code class="highlighter-rouge">L</code>. Similarly, define <code class="highlighter-rouge">R_top</code> for <code class="highlighter-rouge">R</code>.</p>
+
+<p>Note that</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M = max(max(L_top, len(L) - L_top), max(R_top, len(R) - R_top))
+</code></pre></div></div>
+
+<p>This function looks like a parabola. By taking derivatives, we can binary search our way to the minimum. (Drawing this out may help you visualize).</p>
+
+<p>My solution can be found <a href="https://github.com/chen-robert/writeups/blob/master/data/docs/usaco/2015/code/balancing.java">here</a></p>
+
+
+                <p style="color: #777; font-size: 14px;"><i>Written by Robert Chen</i></p>
+                <p style="color: #777; font-size: 14px;">Notice any mistakes? Please email us at <a href="mailto:learn@teamcode.com">learn@teamscode.com</a> so that we can fix any inaccuracies. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<div class="footer">
+  <div class="site-max-width">
+    <div class="footer-copyright">
+      TeamsCode &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+    </div>
+    <div class="footer-social-menu">
+      <div>
+        <a href="https://instagram.com/teamscode" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://discord.gg/8pg89SS" target="_blank">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/teamscode" target="_blank">
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/teamscode" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/TeamsCode" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright"style="font-size:12px">TeamsCode is a 501(c)(3) non-profit organization.</div>
+    <div class="footer-copyright" style="font-size:12px">Website and materials not to be reproduced without prior written permission from TeamsCode Co-Presidents (Sean Yang and Ryan Hsu).</div>
+  </div>
+</div>
+
+    </div>
+  </body>
+
+  <script>
+  $(window).scroll(function(e){ 
+    var $el = $('#sidebar'); 
+    var isPositionFixed = ($el.css('position') == 'fixed');
+    var bottomDist = $(window).scrollTop() >= $(document).height() - 500;
+    if (!bottomDist && !isPositionFixed) { 
+      $('#sidebar').addClass("sticky-l");
+      $('#sidebar').removeClass("near-bottom-l"); 
+    }
+    if (bottomDist && isPositionFixed) {
+      $('#sidebar').removeClass("sticky-l"); 
+      $('#sidebar').addClass("near-bottom-l"); 
+    }
+  });
+</script>
+</html>
